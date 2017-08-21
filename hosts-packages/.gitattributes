@@ -1,0 +1,2 @@
+# Normalize hosts files to CRLF
+hosts text eol=crlf
