@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head>
 
+
   
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -123,7 +124,11 @@ of paying a subscription service to access an API to resolve MAC
 address data? Just resolving locally and maintaining your own database
 with this project is faster, cheaper (FREE!), and more secure.<br>
             <br>
-            <strong><span style="font-weight: bold;">Step one</span></strong>, choose the lookup table you need depending on the level of detail you require:<br>
+            <strong><span style="font-weight: bold;">Step one</span></strong>,
+choose the lookup table you need depending on the level of detail you
+require. The lookup tables here are synced regularly with the IEEE's
+daily updates, so remember to keep your files up to date for the latest
+and most accurate data.<br>
             <br>
             <a href="https://scripttiger.github.io/macs/data/master.txt">Master.txt</a>:<br>
 Complete record of all IEEE-registered OUI blocks reformatted for easier script use.<br>
@@ -135,10 +140,15 @@ Same as master.txt, but block type and vendor address columns removed.<br>
             <strong><span style="font-weight: bold;">NOTE</span></strong>: If you decide to use the simplified.txt, set the SIMPLE variable at the top of the script to 1.<br>
 
 To edit the script, simply right-click the OUI_Search.cmd and select "Edit."<br>
-            <br>
+<br>
             <strong><span style="font-weight: bold;">Step two</span></strong>, download the <a href="https://github.com/ScriptTiger/MAC-Address-Lookup/archive/master.zip">mac lookup script</a> and extract the contents to
 the same directory as either the master.txt or simplified.txt.<br>
-            <br>
+            The
+script can be used interactively or simply by using the commmand
+"oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. It
+accepts all standard mac address formats: XX-XX-XX-XX-XX-XX,
+XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc.<br>
+<br>
 Original source files provided by IEEE:<br>
 MA-S Registry: <a href="https://standards.ieee.org/develop/regauth/oui36/oui36.csv">IEEE</a> | <a href="https://scripttiger.github.io/macs/data/oui36.csv">Mirror</a><br>
 MA-M Registry: <a href="https://standards.ieee.org/develop/regauth/oui28/mam.csv">IEEE</a> | <a href="https://scripttiger.github.io/macs/data/mam.csv">Mirror</a><br>
