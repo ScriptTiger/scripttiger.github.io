@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head>
 
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -120,17 +119,10 @@ ScriptTiger</a></th>
             <td style="vertical-align: top; width: 100%; background-color: white;"><br>
             <h1 style="text-align: center; margin-top: 10px;">DualServer
 Blacklists &amp; Extras<br>
-            </h1>
-DualServer, the highly configurable and scalable Windows/Linux DNS/DHCP
-server, can be found here:<br>
-            <a href="https://sourceforge.net/projects/dhcp-dns-server/">https://sourceforge.net/projects/dhcp-dns-server/</a><br>
+            </h1>Below are blacklists and other helpful links and tools for <a href="https://sourceforge.net/projects/dhcp-dns-server/">DualServer</a>, the highly configurable and scalable Windows/Linux DNS/DHCP
+server.<br>
             <br>
-The blacklists are reformatted versions of the unified hosts files
-maintained by Steven Black:<br>
-            <a href="https://github.com/StevenBlack/hosts">https://github.com/StevenBlack/hosts</a><br>
-            <br>
-These blacklists are synced regularly to Steven Black's unified hosts
-files.<br>
+The blacklists are reformatted versions of <a href="https://github.com/StevenBlack/hosts">Steven Black unified hosts files</a> and are synced regularly.<br>
             <br>
 Combining Steven Black's Unified Hosts with DualServer allows anyone
 from small home networks hosting DualServer on a regular old PC to a
@@ -144,17 +136,22 @@ additional blocks.<br>
             <br>
 If you'd like a way to more quickly and easily update your DualServer's
 blacklist to the most recent versions of Steven Black's unified hosts
-files, try the ScriptTiger unified hosts updater:<br>
-            <a href="https://github.com/ScriptTiger/DualServer/archive/master.zip">https://github.com/ScriptTiger/DualServer/archive/master.zip</a><br>
+files, try the <a href="https://github.com/ScriptTiger/DualServer/archive/master.zip">ScriptTiger unified hosts updater</a>.<br>
             <br>
 While the blacklists will work for anyone running DualServer, the
 Updater is only for Windows users. If you download the above ZIP file
 and extract the contents to your DualServer root, the same directory as
 your DualServer.ini, it can update your DualServer for you depending on
-your preferences without requiring you to have any local git repos. If
+your preferences without requiring you to manually download and
+configure anything. Just insert #### BEGIN UNIFIED HOSTS #### and ####
+END UNIFIED HOSTS #### into the [DNS_HOSTS] section of the
+DualerServer.ini and run Blacklist_Update.cmd. After you have inserted
+the beginning and ending tags, if you run the script again it will
+automatically replace everything between them with the new blacklist.
+If
 you plan to always use the same blacklist, you can edit the "URL"
 variable at the top of the script with the direct URL of the blacklist
-you prefer and this will bypass having to be prompted for you
+you prefer and this will bypass having to be prompted for your
 preferences later.<br>
             <br>
 Note: A blacklist should be used together with other security measures
@@ -303,10 +300,16 @@ gambling + porn + social</td>
             <br>
 Other helpful Links:<br>
             <br>
-Default URL for your local DualServer: <a href="http://127.0.0.1:6789/">http://127.0.0.1:6789/</a><br>
+            <a href="http://127.0.0.1:6789/">Default URL for your local DualServer</a><br>
             <br>
-Official reference of DHCP options: <a href="https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml">https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml</a><br>
+            <a href="https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml">Official reference of DHCP options</a><br>
             <br>
+            <a href="https://scripttiger.github.io/dualserver/DualServerManual.pdf">Official DualServer manual PDF</a><br>
+            <br>
+            <a href="https://scripttiger.github.io/dualserver/Template.ini">Official DualServer configuration INI template</a><br>
+            <br>
+            <a href="https://scripttiger.github.io/dualserver/Bare.ini">Bare DualServer configuration INI with only section headers</a><br>
+<br>
 Have questions or comments about the content on this page? ScriptTiger would love to hear them! Open a new issue in <a href="https://github.com/ScriptTiger/DualServer/issues">ScriptTiger's GitHub DualServer repository</a> to have your voice heard!<br>
             </td>
           </tr>
