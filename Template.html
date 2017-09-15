@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en-US"><head>
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,7 +15,10 @@
       enable_page_level_ads: true
     });
   </script>
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Template - ScriptTiger</title></head><body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+  <link rel="import" href="https://scripttiger.github.io/navbar.html">
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Template - ScriptTiger</title>
+</head><body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
 <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
@@ -24,80 +26,33 @@
       <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
         <tbody>
           <tr>
-            <td>
-            <br>
-</td>
+            <td> <br>
+            </td>
             <td style="vertical-align: top; height: 100px; width: 80%;">
             <br>
-</td>
+            </td>
             <td style="vertical-align: top; height: 100px; width: 10%;">
             <br>
-</td>
+            </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; width: 10%;">
-            <br>
-</td>
-            <td style="vertical-align: top; width: 80%;">
-            <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);" border="1" cellpadding="2" cellspacing="2">
-              <tbody>
-                <tr>
-                  <th style="vertical-align: top; width: 100%; text-align: center; background-color: white;">Site
-Map
-                  </th>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://scripttiger.github.io/">Mission Statement</a></td>
-
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://scripttiger.github.io/hosts-packages">Hosts Packages</a></td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://scripttiger.github.io/dualserver">DualServer Blacklists
-&amp; Extras</a></td>
-                </tr><tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://scripttiger.github.io/macs">Mac Address Goodies</a>
-                  </td>
-                </tr>
-
-              </tbody>
-            </table>
-            <br>
-            <table style="text-align: left; width: 100%; background-color: rgb(255, 255, 102); margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
-              <tbody>
-                <tr>
-                  <th style="vertical-align: top; width: 100%; text-align: center; background-color: white;">Resources
-                  </th>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://github.com/scripttiger">GitHub Projects</a></td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://www.youtube.com/channel/UCSU1hjut9YCy4eHrtCluvpw">YouTube
-Tutorials</a></td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><a href="https://www.patreon.com/ScriptTiger">Patreon Supporters
-</a></td>
-                </tr>
-              </tbody>
-            </table>
-            <br>
-            <table style="text-align: left; width: 100%; background-color: rgb(255, 255, 102); margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
-              <tbody>
-                <tr>
-                  <th style="vertical-align: top; height: 100%; width: 100%; text-align: center; background-color: white;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfBEe5B_zo69OBk19l3hzvBmz3cOV6ol1ufjh0ER1q3-xd2Rg/viewform">Contact
-ScriptTiger</a></th>
-                </tr>
-              </tbody>
-            </table>
+            <td style="vertical-align: top; width: 10%;"> <br>
             </td>
-            <td style="vertical-align: top; width: 10%;">
-            <br>
-</td>
+            <td style="vertical-align: top; width: 80%;">
+<div id="container"></div>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+
+    // Clone the <template> in the import.
+    var template = link.import.querySelector('template');
+    var clone = document.importNode(template.content, true);
+
+    document.querySelector('#container').appendChild(clone);
+  </script>
+            </td>
+            <td style="vertical-align: top; width: 10%;"> <br>
+            </td>
           </tr>
-          
         </tbody>
       </table>
       </td>
@@ -108,8 +63,7 @@ ScriptTiger</a></th>
             <td style="vertical-align: top; width: 100%; background-color: white;"><br>
             <h1 style="text-align: center; margin-top: 10px;">Page
 Header</h1>
-Body of content.
-            </td>
+Body of content. </td>
           </tr>
         </tbody>
       </table>
@@ -123,40 +77,37 @@ Copyright (c) 2017 <a href="https://scripttiger.github.io/">ScriptTiger</a>
           <tr>
             <td style="vertical-align: top; height: 100px; width: 10%;">
             <br>
-</td>
+            </td>
             <td style="vertical-align: middle; height: 100px; width: 80%; text-align: center;">
-<div id="google_translate_element"></div>
-<script type="text/javascript">
+            
+            <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
             <br>
-</td>
+            </td>
             <td style="vertical-align: top; height: 100px; width: 10%;">
             <br>
-</td>
+            </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; width: 10%;">
-            <br>
-</td>
+            <td style="vertical-align: top; width: 10%;"> <br>
+            </td>
             <td style="vertical-align: top; width: 80%;">
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- ScriptTiger --> <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-2595301100912303" data-ad-slot="1963377380" data-ad-format="auto"></ins>
-<script>
+            <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- ScriptTiger -->
+            <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-2595301100912303" data-ad-slot="1963377380" data-ad-format="auto"></ins>
+            <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-            <br>
-</td>
-            <td style="vertical-align: top; width: 10%;">
-            <br>
-</td>
+            </script> <br>
+            </td>
+            <td style="vertical-align: top; width: 10%;"> <br>
+            </td>
           </tr>
         </tbody>
       </table>
-</td>
+      </td>
     </tr>
   </tbody>
 </table>
