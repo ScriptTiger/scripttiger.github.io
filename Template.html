@@ -11,12 +11,7 @@
       google_ad_client: "ca-pub-2595301100912303",
       enable_page_level_ads: true
     });
-  </script><link rel="import" href="https://scripttiger.github.io/navbar.html"><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Template - ScriptTiger</title>
-  
-  
-  
-  
-  
+  </script><link rel="import" href="https://scripttiger.github.io/elements.html"><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Template - ScriptTiger</title>
   </head>
 <body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
 <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
@@ -39,16 +34,7 @@
             <td style="vertical-align: top; width: 10%;"> <br>
             </td>
             <td style="vertical-align: top; width: 80%;">
-<div id="container"></div>
-  <script>
-    var link = document.querySelector('link[rel="import"]');
-
-    // Clone the <template> in the import.
-    var template = link.import.querySelector('template');
-    var clone = document.importNode(template.content, true);
-
-    document.querySelector('#container').appendChild(clone);
-  </script>
+<navbar-element></navbar-element>
             </td>
             <td style="vertical-align: top; width: 10%;"> <br>
             </td>
