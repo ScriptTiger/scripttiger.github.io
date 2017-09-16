@@ -58,8 +58,8 @@ ScriptTiger</a></th>
     var proto = Object.create(HTMLElement.prototype);
     proto.createdCallback = function() {
       // get template in import
-      var navbar-content = importDoc.querySelector('#navbar-table');
-      var clone = document.importNode(navbar-content.content, true);
+      var navbar = importDoc.querySelector('#navbar-table');
+      var clone = document.importNode(navbar.content, true);
       var root = this.createShadowRoot();
       root.appendChild(clone);
     };
