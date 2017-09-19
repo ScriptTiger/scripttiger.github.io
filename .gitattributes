@@ -1,0 +1,5 @@
+# Normalize text files to CRLF
+*.txt text eol=crlf
+*.ini text eol=crlf
+hosts text eol=crlf
+*.csv text eol=crlf
