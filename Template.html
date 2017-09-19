@@ -15,6 +15,7 @@ google_ad_client: "ca-pub-2595301100912303",
 enable_page_level_ads: true
 });
 </script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Template - ScriptTiger</title>
 
 </head>
@@ -37,12 +38,13 @@ enable_page_level_ads: true
 <td style="vertical-align: top; width: 10%;"> <br>
 </td>
 <td style="vertical-align: top; width: 80%;">
-<script src="//code.jquery.com/jquery.min.js"></script>
+<div id="navbar-element"></div>
 <script>
-$.get("elements.html", function(data){
-$("#navbar-element").replaceWith(data);
+$(function(){
+$("#navbar-element").load("https://scripttiger.github.io/elements.html");
 });
-</script></td>
+</script>
+</td>
 <td style="vertical-align: top; width: 10%;"> <br>
 </td>
 </tr>
