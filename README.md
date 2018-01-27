@@ -1,3 +1,5 @@
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ScriptTiger)
+
 # scripttiger.github.io
 GitHub Pages hosted live at the below link:  
 https://scripttiger.github.io/
