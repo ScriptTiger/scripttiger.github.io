@@ -112,7 +112,24 @@ unique MAC addresseses, where each registry entry can allocate up to
 allocate 1,048,575 unique MAC addresses and each entry in the MA-S
 block can allocate only 4,095 unique MAC addresses. Although they are
 smaller in number and mostly neglected OUIs, MA-M and MA-S have also
-been included for completeness.<br><br>
+been included for completeness.<br><br>What
+these files do not include are separate designated virtual machine
+OUIs. In the past including virtual machine OUIs were useful to
+distinguish previously undocumented OUIs. However, in modern times
+these virtual machine OUIs are now documented and registered with the
+IEEE by their controlling authorities. For example, the VirtualBox
+virtual NICs are registered to Oracle Corporation, the VMWare virtual
+NICs are registered to VMware, Inc., the Xen virtual NICs are
+registered to&nbsp;Xensource, Inc., the Parallels virtual NICs are
+registered to Parallels, Inc., and all of the various virtual NICs you
+can create in Windows are all registered to Microsoft Corporation.
+Since all of these and more are registered OUIs, there is no longer a
+need to curate an elusive DIY virtual NIC list separate from those that
+are already registered. And on top of all of this, as most virtual NICs
+can be programmed with any MAC address the user desires because they do
+not posses a physical computer chip with a burned-in address to load
+into RAM on boot as physical NICs do, even in the past these lists were
+unreliable.<br><br>
 Original source files provided by IEEE:<br>
 MA-S Registry: <a href="https://standards.ieee.org/develop/regauth/oui36/oui36.csv">IEEE</a>
 | <a href="https://scripttiger.github.io/macs/data/oui36.csv">Mirror</a><br>
