@@ -4,6 +4,11 @@
 GitHub Pages hosted live at the below link:  
 https://scripttiger.github.io/
 
+**Due to the volume of data and frequency of changes within this repository, the git history of downloadables is often cleared to keep the repository size manageable and the folks at GitHub happy. Because of this, downloadables will often show as having been updated in the latest commit, whether or not the commit comment includes their content or not. Always trust the commit comment to know what content has been updated.  
+Keywords:  
+UH: Unified Hosts (source for all hosts files and blacklists)  
+IEEE: Institute of Electrical and Electronics Engineers (source for all MAC address OUI registration information)**
+
 If you would like to show your support for ScriptTiger, check out the Patreon page to find out how:  
 https://www.patreon.com/ScriptTiger
 
