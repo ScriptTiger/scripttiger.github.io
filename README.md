@@ -9,7 +9,6 @@ Keywords:
 UH: Unified Hosts (source for all hosts files and blacklists)  
 IEEE: Institute of Electrical and Electronics Engineers (source for all MAC address OUI registration information)**
 
-If you would like to show your support for ScriptTiger, check out the Patreon page to find out how:  
-https://www.patreon.com/ScriptTiger
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MZ4FH4G5XHGZ4)
 
 Donate Monero (XMR): 441LBeQpcSbC1kgangHYkW8Tzo8cunWvtVK4M6QYMcAjdkMmfwe8XzDJr1c4kbLLn3NuZKxzpLTVsgFd7Jh28qipR5rXAjx
