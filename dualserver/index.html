@@ -16,17 +16,16 @@ enable_page_level_ads: true
 });
 </script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>DualServer Blacklists &amp; Extras - ScriptTiger</title></head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>DualServer Blacklists &amp; Extras - ScriptTiger</title>
+
+</head>
 <body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) return;
-js = d.createElement(s); js.id = id;
-js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div style="float: right;" class="fb-like" data-href="https://scripttiger.github.io/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+<div id="header-element"></div>
+<script>
+$(function(){
+$("#header-element").load("https://scripttiger.github.io/elements/header.html");
+});
+</script>
 <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
 <tbody>
 <tr>
@@ -83,7 +82,8 @@ Combining Steven Black's Unified Hosts with DualServer allows anyone
 from small home networks hosting DualServer on a regular old PC to a
 larger corporate infrastructure with multiple server blades and relay
 agents to block everything from sidebar ads, annoying YouTube video
-ads, banner ads, coin miners, and even some invisible embedded analytics trying to
+ads, banner ads, coin miners, and even some invisible embedded
+analytics trying to
 gather more information about you for all connected devices using your
 DualServer DNS service, including laptops, mobile phones, PCs, Macs,
 Linux, whatever. The other files add onto the core Unified Hosts

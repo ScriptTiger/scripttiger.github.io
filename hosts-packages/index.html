@@ -16,17 +16,16 @@ enable_page_level_ads: true
 });
 </script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Unified Hosts Packages - ScriptTiger</title></head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Unified Hosts Packages - ScriptTiger</title>
+
+</head>
 <body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) return;
-js = d.createElement(s); js.id = id;
-js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div style="float: right;" class="fb-like" data-href="https://scripttiger.github.io/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+<div id="header-element"></div>
+<script>
+$(function(){
+$("#header-element").load("https://scripttiger.github.io/elements/header.html");
+});
+</script>
 <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
 <tbody>
 <tr>
@@ -75,20 +74,26 @@ Below are reformatted hosts packages for <a target="_blank" href="https://github
 hosts repo</a>.
 These hosts files block everything from sidebar ads, annoying YouTube
 video ads, banner ads, coin miners, and even some invisible embedded
-analytics trying to gather more information about you. <span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline ! important; float: none;">The other files add onto the core Unified Hosts additional blocks.</span><br>
+analytics trying to gather more information about you. <span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline ! important; float: none;">The
+other files add onto the core Unified Hosts additional blocks.</span><br>
 <br>
 These hosts packages are updated regularly with Steven Black's hosts
-files and are reformatted here for the purposes of improving compatibility. The
+files and are reformatted here for the purposes of improving
+compatibility. The
 directory structure and naming standards are identical to that of
 Steven Black's repo to ensure the widest range of compatibility across
-projects. The ZIP links in this repo are perfect for older legacy hosts file managing
-software which require hosted archives to pull from as sources. The hosts files in this repo have also been normalized to
+projects. The ZIP links in this repo are perfect for older legacy hosts
+file managing
+software which require hosted archives to pull from as sources. The
+hosts files in this repo have also been normalized to
 CRLF to make them more user-friendly for Windows users, while also
 being just as compatible for any other system, such as Linux, etc.<br>
 <br>
 If you run into any issues using these, you can also try the
 "compressed" format on the&nbsp;<a href="https://scripttiger.github.io/alts/">Additional
-Blacklist Support page</a>.<br><br>If
+Blacklist Support page</a>.<br>
+<br>
+If
 you are running a Windows operating system and would like to keep your
 machine up to date automatically with the latest hosts files from
 Steven Black, you can also try the <a href="https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate/archive/master.zip" target="_blank">Unified Hosts AutoUpdate</a>.<br>
