@@ -52,30 +52,35 @@ unified hosts
 files</a> reformatted for various other applications for
 additional support and are synced regularly. Feel free to open an issue
 if you have any suggestions to support another format, or contact me
-via the "Contact ScriptTiger" link on the left side of the page.<br>
-<br>
-The FQDN format is just a standard list of domains, which is the most
+via the "Contact ScriptTiger" link on the left side of the page.<br><br><span style="font-weight: bold;">
+FQDN</span><br>Just a standard list of domains, which is the most
 common blacklist format used by DNSCrtypt, pfSense, etc. If for some
 reason you need an FQDN list but this one is not working for you,
 please don't hesitate to open an issue or contact me so we can figure
 it out and get it resolved for the benefit of yourself and everyone
 else.<br>
-<br>The RFQDN list of domains is similar to the FQDN list of domains,
+<br><span style="font-weight: bold;">RFQDN</span><br>Similar to the FQDN list of domains
 except that children of parent domains that are present on the list are
 pruned from the list. This is useful if you would like a reduced FQDN
 list of domains to be blocked and all child domains are already
-inherently blocked by the intended software.<br><br>The RPZ format is designed to be used with DNS RPZ, but does not
+inherently blocked by the intended software.<br><br><span style="font-weight: bold;">RPZ</span><br>Designed to be used with DNS RPZ, but does not
 include the zone file header elements, these may be different from user
 to user and must be appended to the top of each zone file depending on
-your individual preferences.<br><br>
-The IPv4_IPv6 format includes both IPv4 lines leading with
+your individual preferences.<br><br><span style="font-weight: bold;">RRPZ</span><br>Similar
+to the RPZ format except that multiple child domains of a single
+blocked parent domain are reduced to a single wild card child domain of
+the shared common domain. Please note if multiple child domains of a
+common parent domain are present but the parent domain itself is not,
+those entries will not be reduced as the parent itself is not blocked
+and may have other child domains that shouldn't be blocked, as well.<br><br><span style="font-weight: bold;">
+IPv4_IPv6</span><br>Includes both IPv4 lines leading with
 "0.0.0.0" and IPv6 lines leading with "::" for devices that are
 compatible with the standard hosts file format but require both IPv4
 and IPv6 entries. Normally if a domain is found, the system should take
 the result whether it is IPv4 or IPv6, but in some systems this is not
 the case and require explicit entries for both.<br>
-<br>
-The compressed format is an alternative hosts file format which
+<br><span style="font-weight: bold;">
+Compressed</span><br>An alternative hosts file format which
 condenses multiple domain names and comments to a single line. If your
 are having issues with the regular format hosted by Steven Black or in
 the Hosts Packages section of this site, you can try
@@ -84,8 +89,8 @@ and see if it works for you. Some Windows users suffering from poor
 performance when using the regular format have noticed dramatic
 performance gains when using this format. This format may also be
 better for some mobile applications.<br>
-<br>
-The mcompressed format is the same as the compressed format except it's
+<br><span style="font-weight: bold;">
+MCompressed</span><br>The same as the compressed format except it's
 only halfway compressed to a 5-domain maximum per line instead of the 9
 domains per line in the fully compressed format. Some users have found
 this balance to work better on their systems.<br>
@@ -104,32 +109,32 @@ File Type </th>
 <td style="vertical-align: top; background-color: white;">Unified
 hosts
 = (adware + malware) </td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: top; background-color: white;">Unified
 hosts + fakenews </td>
 <td style="vertical-align: top; text-align: center; background-color: white;">
-<a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-f.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-f.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-f.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-f.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-f.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-f.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-f.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-f.txt" download="">MCompressed</a>
+<a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-f.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-f.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-f.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-f.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-f.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-f.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-f.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-f.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-f.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: top; background-color: white;">Unified
 hosts + gambling </td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-g.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-g.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-g.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-g.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-g.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-g.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-g.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-g.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-g.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-g.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-g.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-g.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-g.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-g.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-g.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-g.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-g.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: top; background-color: white;">Unified
 hosts + porn </td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-p.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-p.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-p.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-p.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-p.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-p.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-p.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-p.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-p.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-p.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-p.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-p.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-p.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-p.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-p.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-p.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-p.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: top; background-color: white;">Unified
 hosts + social </td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-s.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-s.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-s.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-s.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-s.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-s.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-s.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-s.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-s.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-s.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-s.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-s.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-s.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-s.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-s.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-s.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-s.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -137,7 +142,7 @@ hosts + social </td>
 hosts +
 fakenews +
 gambling</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fg.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fg.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fg.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fg.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fg.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fg.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fg.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fg.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fg.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fg.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fg.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fg.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fg.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fg.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fg.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fg.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fg.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -145,7 +150,7 @@ gambling</td>
 hosts +
 fakenews +
 porn</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fp.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fp.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fp.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fp.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fp.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fp.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fp.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fp.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fp.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fp.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fp.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fp.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fp.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fp.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fp.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fp.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fp.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -153,7 +158,7 @@ porn</td>
 hosts +
 fakenews +
 social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fs.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fs.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fs.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fs.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fs.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fs.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fs.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fs.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fs.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fs.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fs.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fs.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fs.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fs.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fs.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fs.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fs.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -161,7 +166,7 @@ social</td>
 hosts +
 gambling +
 porn</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-gp.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-gp.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-gp.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-gp.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-gp.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-gp.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-gp.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-gp.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-gp.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-gp.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-gp.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-gp.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-gp.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-gp.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-gp.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-gp.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-gp.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -169,7 +174,7 @@ porn</td>
 hosts +
 gambling +
 social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-gs.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-gs.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-gs.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-gs.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-gs.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-gs.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-gs.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-gs.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-gs.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-gs.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-gs.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-gs.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-gs.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-gs.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-gs.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-gs.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-gs.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -178,7 +183,7 @@ hosts +
 porn
 +
 social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-ps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-ps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-ps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-ps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-ps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-ps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-ps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-ps.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-ps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-ps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-ps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-ps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-ps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-ps.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-ps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-ps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-ps.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -186,7 +191,7 @@ social</td>
 hosts +
 fakenews +
 gambling + porn</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fgp.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fgp.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fgp.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fgp.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fgp.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fgp.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fgp.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fgp.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fgp.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fgp.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fgp.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fgp.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fgp.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fgp.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fgp.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fgp.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fgp.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -194,7 +199,7 @@ gambling + porn</td>
 hosts +
 fakenews +
 gambling + social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fgs.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fgs.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fgs.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fgs.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fgs.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fgs.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fgs.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fgs.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fgs.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fgs.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fgs.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fgs.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fgs.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fgs.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fgs.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fgs.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fgs.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -202,7 +207,7 @@ gambling + social</td>
 hosts +
 fakenews +
 porn + social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fps.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fps.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fps.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -210,7 +215,7 @@ porn + social</td>
 hosts +
 gambling +
 porn + social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-gps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-gps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-gps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-gps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-gps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-gps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-gps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-gps.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-gps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-gps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-gps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-gps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-gps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-gps.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-gps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-gps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-gps.txt" download="">MCompressed</a>
 </td>
 </tr>
 <tr>
@@ -218,7 +223,7 @@ porn + social</td>
 hosts +
 fakenews +
 gambling + porn + social</td>
-<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fgps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fgps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fgps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fgps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fgps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fgps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fgps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fgps.txt" download="">MCompressed</a>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/alts/domains/blacklist-fgps.txt" download="">FQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/reduced/blacklist-fgps.txt" download="">RFQDN</a> | <a target="_blank" href="https://scripttiger.github.io/alts/dnsmasq/blacklist-fgps.txt" download="">dnsmasq</a> | <a target="_blank" href="https://scripttiger.github.io/alts/unbound/blacklist-fgps.txt" download="">Unbound</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rpz/blacklist-fgps.txt" download="">RPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/rrpz/blacklist-fgps.txt" download="">RRPZ</a> | <a target="_blank" href="https://scripttiger.github.io/alts/4_6/blacklist-fgps.txt" download="">IPv4_IPv6</a> | <a target="_blank" href="https://scripttiger.github.io/alts/compressed/blacklist-fgps.txt" download="">Compressed</a> | <a target="_blank" href="https://scripttiger.github.io/alts/mcompressed/blacklist-fgps.txt" download="">MCompressed</a>
 </td>
 </tr>
 </tbody>
