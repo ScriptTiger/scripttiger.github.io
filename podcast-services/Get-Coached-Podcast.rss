@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 	<channel>
-		<title><![CDATA[Get Coached Podcast]]></title><itunes:subtitle>Join me on my journey from employee to entrepreneur!</itunes:subtitle>
+		<title><![CDATA[Get Coached Podcast]]></title>
+		<itunes:subtitle>Join me on my journey from employee to entrepreneur!</itunes:subtitle>
 		<description><![CDATA[Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven’t found the right person yet.
 
 With weekly episodes featuring professional coaches, one of two things is guaranteed to happen for my audience. You’ll find the right coach for you to work with, or you’ll receive great actionable advice along the way.
@@ -31,8 +32,12 @@ In either case, it’s a win-win!</itunes:summary>
 			<itunes:email>podcasts43+59e8eb4@anchor.fm</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
+		<itunes:category text="Business">
+			<itunes:category text="Entrepreneurship"/>
 		<itunes:category text="Education">
 			<itunes:category text="Self-Improvement"/>
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals"/>
 		</itunes:category>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
 		<item>
