@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 	<channel>
-		<title><![CDATA[Get Coached Podcast]]></title>
+		<title><![CDATA[Get Coached Podcast]]></title><itunes:subtitle>Join me on my journey from employee to entrepreneur!</itunes:subtitle>
 		<description><![CDATA[Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven’t found the right person yet.
 
 With weekly episodes featuring professional coaches, one of two things is guaranteed to happen for my audience. You’ll find the right coach for you to work with, or you’ll receive great actionable advice along the way.
@@ -12,7 +12,7 @@ In either case, it’s a win-win!]]></description>
 			<title>Get Coached Podcast</title>
 			<link>https://getcoachedpodcast.com/</link>
 		</image>
-		<generator>Anchor Podcasts</generator>
+		<generator>Anchor Podcasts - Modified by ScriptTiger</generator>
 		<lastBuildDate>Mon, 09 Mar 2020 08:06:38 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/59e8eb4/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Chris Ippolito]]></author>
