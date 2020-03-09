@@ -12,7 +12,8 @@ In either case, it’s a win-win!]]></description>
 			<title>Get Coached Podcast</title>
 			<link>https://getcoachedpodcast.com/</link>
 		</image>
-		<generator>Anchor Podcasts - Modified by ScriptTiger</generator>
+		<generator>Anchor Podcasts</generator>
+		<lastBuildDate>Mon, 09 Mar 2020 08:06:38 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/59e8eb4/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[Chris Ippolito]]></author>
 		<copyright><![CDATA[Chris Ippolito]]></copyright>
@@ -30,7 +31,6 @@ In either case, it’s a win-win!</itunes:summary>
 			<itunes:email>podcasts43+59e8eb4@anchor.fm</itunes:email>
 		</itunes:owner>
 		<itunes:explicit>No</itunes:explicit>
-		<itubes:subtitle>Join me on my journey from employee to entrepreneur!</itubes:subtitle>
 		<itunes:category text="Education">
 			<itunes:category text="Self-Improvement"/>
 		</itunes:category>
