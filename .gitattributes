@@ -3,7 +3,5 @@
 *.ini text eol=crlf
 hosts text eol=crlf
 *.csv text eol=crlf
-# Normalize RSS to LF
-*.rss text eol=lf
 # Normalize special cases to LF
 /alts/rpz/* text eol=lf
