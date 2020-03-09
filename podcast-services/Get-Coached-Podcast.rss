@@ -33,7 +33,7 @@ In either case, it’s a win-win!</itunes:summary>
 		<itunes:explicit>No</itunes:explicit>
 		<itunes:category text="Education">
 			<itunes:category text="Self-Improvement"/>
-		<itunes:category text="Business"><itunes:category text="Entrepreneurship"/><itunes:category text="Society &amp; Culture"><itunes:category text="Personal Journals"/></itunes:category>
+		</itunes:category>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
 		<item>
 			<title><![CDATA[How To Ask Better Questions with Jim Frawley]]></title>
