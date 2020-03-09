@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
-	<channel>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 		<title><![CDATA[Get Coached Podcast]]></title>
 		<description><![CDATA[Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven’t found the right person yet.
 
@@ -692,5 +691,4 @@ Send in a voice message: https://anchor.fm/getcoached/message</itunes:summary>
 			<itunes:season>1</itunes:season>
 			<itunes:episodeType>bonus</itunes:episodeType>
 		</item>
-	</channel>
 </rss>
