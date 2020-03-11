@@ -1,14 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 	<channel>
-		<title>Get Coached Podcast</title>
+		<title><![CDATA[Get Coached Podcast]]></title>
 		<itunes:subtitle>Join me on my journey from employee to entrepreneur!</itunes:subtitle>
-		<description>
-Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven?t found the right person yet.
+		<description><![CDATA[Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven’t found the right person yet.
 
-With weekly episodes featuring professional coaches, one of two things is guaranteed to happen for my audience. You?ll find the right coach for you to work with, or you?ll receive great actionable advice along the way.
+With weekly episodes featuring professional coaches, one of two things is guaranteed to happen for my audience. You’ll find the right coach for you to work with, or you’ll receive great actionable advice along the way.
 
-In either case, it?s a win-win!
-</description>
+In either case, it’s a win-win!]]></description>
 		<link>https://getcoachedpodcast.com/</link>
 		<image>
 			<url>https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg</url>
@@ -18,16 +16,16 @@ In either case, it?s a win-win!
 		<generator>Anchor Podcasts - Modified and Managed by ScriptTiger</generator>
 		<lastBuildDate>Wed, 11 Mar 2020 00:59:45 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/59e8eb4/podcast/rss" rel="self" type="application/rss+xml"/>
-		<author>Chris Ippolito</author>
-		<copyright>Chris Ippolito</copyright>
-		<language>en-ca</language>
+		<author><![CDATA[Chris Ippolito]]></author>
+		<copyright><![CDATA[Chris Ippolito]]></copyright>
+		<language><![CDATA[en-ca]]></language>
 		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
 		<itunes:author>Chris Ippolito</itunes:author>
-		<itunes:summary>Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven?t found the right person yet.
+		<itunes:summary>Get Coached Podcast was launched to create a community of entrepreneurs who know that mentorship and coaching could help them level up, but haven’t found the right person yet.
 
-With weekly episodes featuring professional coaches, one of two things is guaranteed to happen for my audience. You?ll find the right coach for you to work with, or you?ll receive great actionable advice along the way.
+With weekly episodes featuring professional coaches, one of two things is guaranteed to happen for my audience. You’ll find the right coach for you to work with, or you’ll receive great actionable advice along the way.
 
-In either case, it?s a win-win!</itunes:summary>
+In either case, it’s a win-win!</itunes:summary>
 		<itunes:type>episodic</itunes:type>
 		<itunes:owner>
 			<itunes:name>Chris Ippolito</itunes:name>
@@ -45,147 +43,64 @@ In either case, it?s a win-win!</itunes:summary>
 		</itunes:category>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
 		<item>
-			<title>How To Replace Yourself In Your Business</title>
-			<description>
-Ari is the best-selling author of "The Art of Less Doing", and "The Replaceable Founder." He is a self-described Overwhelmologist whose insights into personal and professional productivity have earned him the title, "The Guru's Guru." He can be heard on the award-winning Less Doing Podcast, on international stages speaking to thought leaders and influencers, and for those who prefer the written word, Ari's blog posts on Medium offer immediate and actionable advice for entrepreneurs seeking replaceability. 
-
-
-Episode Summary 
-
-
-
-How a debilitating health condition led to business success
-
-Going from business coach to paramedic and the reason why
-
-Why replacing yourself from your business should be the goal
-
-When should a business consider outsourcing tasks
-
-The right way to build checklists
-
-The dark side of entrepreneurs 
-
-
-Quotes
-
-
-"Until you get to $300,000 in revenue, nothing else matters but getting more revenue."
-
-
-"The value is in the process, not the person"
-
-
-"Entrepreneurs are egotistical motherfuckers" 
-
-
-Resources
-
-
-The Replaceable Founder by Ari Meisel 
-
-
-AI-Generated Voices - Resemble.ai 
-
-
-Checklist Manifesto by Atul Gawande 
-
-
-Less Doing podcast episodes with Ari Meisel and Doug Brackmann, Ep. 338 and Ep. 302 
-
-
-Time tracking device - https://timeular.com/ 
-
-
-Guest Information 
-
-
-Website: https://lessdoing.com/ 
-
-
-Facebook Page: https://www.facebook.com/lessdoing/ 
-
-
-Twitter: https://twitter.com/arimeisel 
-
-
-Instagram: https://www.instagram.com/arimeisel/ 
-
-
-LinkedIn: https://www.linkedin.com/in/productivity-coach-entrepreneur/
-</description>
+			<title><![CDATA[How To Replace Yourself In Your Business]]></title>
+			<description><![CDATA[<p>Ari is the best-selling author of “The Art of Less Doing“, and “The Replaceable Founder.” He is a self-described Overwhelmologist whose insights into personal and professional productivity have earned him the title, “The Guru’s Guru.” He can be heard on the award-winning Less Doing Podcast, on international stages speaking to thought leaders and influencers, and for those who prefer the written word, Ari’s blog posts on Medium offer immediate and actionable advice for entrepreneurs seeking replaceability.&nbsp;</p>
+<p><u><strong>Episode Summary</strong></u>&nbsp;</p>
+<ul>
+ <li>How a debilitating health condition led to business success</li>
+ <li>Going from business coach to paramedic and the reason why</li>
+  <li>Why replacing yourself from your business should be the goal</li>
+  <li>When should a business consider outsourcing tasks</li>
+  <li>The right way to build checklists</li>
+  <li>The dark side of entrepreneurs&nbsp;</li>
+</ul>
+<p><u><strong>Quotes</strong></u></p>
+<p>“Until you get to $300,000 in revenue, nothing else matters but getting more revenue.”</p>
+<p>“The value is in the process, not the person”</p>
+<p>“Entrepreneurs are egotistical motherfuckers”&nbsp;</p>
+<p><u><strong>Resources</strong></u></p>
+<p><a href="https://amzn.to/2ICcA5q">The Replaceable Founder</a> by Ari Meisel&nbsp;</p>
+<p>AI-Generated Voices - <a href="Resemble.ai ">Resemble.ai&nbsp;</a></p>
+<p><a href="https://amzn.to/2U6KhBx">Checklist Manifesto</a> by Atul Gawande&nbsp;</p>
+<p>Less Doing podcast episodes with Ari Meisel and Doug Brackmann, <a href="https://www.stitcher.com/podcast/the-art-of-less-doing/e/56224192">Ep. 338</a> and <a href="https://www.stitcher.com/podcast/ari-meisel/the-art-of-less-doing/e/52393868">Ep. 302&nbsp;</a></p>
+<p>Time tracking device - <a href="https://timeular.com/ ">https://timeular.com/&nbsp;</a></p>
+<p><u><strong>Guest Information&nbsp;</strong></u></p>
+<p>Website: <a href="https://lessdoing.com/ ">https://lessdoing.com/&nbsp;</a></p>
+<p>Facebook Page: <a href="https://www.facebook.com/lessdoing/">https://www.facebook.com/lessdoing/</a>&nbsp;</p>
+<p>Twitter: <a href="https://twitter.com/arimeisel">https://twitter.com/arimeisel</a>&nbsp;</p>
+<p>Instagram: <a href="https://www.instagram.com/arimeisel/">https://www.instagram.com/arimeisel/</a>&nbsp;</p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/productivity-coach-entrepreneur/">https://www.linkedin.com/in/productivity-coach-entrepreneur/</a></p>]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Replace-Yourself-In-Your-Business-eafso1</link>
 			<guid isPermaLink="false">4bd678ac-e353-44b5-ae78-b10d7805001b</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 10 Mar 2020 13:00:24 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/10006721/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-9%2F55445865-44100-1-31125791c3e4b.mp3" length="32588351" type="audio/mpeg"/>
-			<itunes:summary>
-			Ari is the best-selling author of "The Art of Less Doing", and "The Replaceable Founder." He is a self-described Overwhelmologist whose insights into personal and professional productivity have earned him the title, "The Guru's Guru." He can be heard on the award-winning Less Doing Podcast, on international stages speaking to thought leaders and influencers, and for those who prefer the written word, Ari's blog posts on Medium offer immediate and actionable advice for entrepreneurs seeking replaceability. 
-
-
-Episode Summary 
-
-
-
-How a debilitating health condition led to business success
-
-Going from business coach to paramedic and the reason why
-
-Why replacing yourself from your business should be the goal
-
-When should a business consider outsourcing tasks
-
-The right way to build checklists
-
-The dark side of entrepreneurs 
-
-
-Quotes
-
-
-"Until you get to $300,000 in revenue, nothing else matters but getting more revenue."
-
-
-"The value is in the process, not the person"
-
-
-"Entrepreneurs are egotistical motherfuckers" 
-
-
-Resources
-
-
-The Replaceable Founder by Ari Meisel 
-
-
-AI-Generated Voices - Resemble.ai 
-
-
-Checklist Manifesto by Atul Gawande 
-
-
-Less Doing podcast episodes with Ari Meisel and Doug Brackmann, Ep. 338 and Ep. 302 
-
-
-Time tracking device - https://timeular.com/ 
-
-
-Guest Information 
-
-
-Website: https://lessdoing.com/ 
-
-
-Facebook Page: https://www.facebook.com/lessdoing/ 
-
-
-Twitter: https://twitter.com/arimeisel 
-
-
-Instagram: https://www.instagram.com/arimeisel/ 
-
-
-LinkedIn: https://www.linkedin.com/in/productivity-coach-entrepreneur/</itunes:summary>
+			<itunes:summary>&lt;p&gt;Ari is the best-selling author of “The Art of Less Doing“, and “The Replaceable Founder.” He is a self-described Overwhelmologist whose insights into personal and professional productivity have earned him the title, “The Guru’s Guru.” He can be heard on the award-winning Less Doing Podcast, on international stages speaking to thought leaders and influencers, and for those who prefer the written word, Ari’s blog posts on Medium offer immediate and actionable advice for entrepreneurs seeking replaceability.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Episode Summary&lt;/strong&gt;&lt;/u&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+ &lt;li&gt;How a debilitating health condition led to business success&lt;/li&gt;
+ &lt;li&gt;Going from business coach to paramedic and the reason why&lt;/li&gt;
+  &lt;li&gt;Why replacing yourself from your business should be the goal&lt;/li&gt;
+  &lt;li&gt;When should a business consider outsourcing tasks&lt;/li&gt;
+  &lt;li&gt;The right way to build checklists&lt;/li&gt;
+  &lt;li&gt;The dark side of entrepreneurs&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Quotes&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;“Until you get to $300,000 in revenue, nothing else matters but getting more revenue.”&lt;/p&gt;
+&lt;p&gt;“The value is in the process, not the person”&lt;/p&gt;
+&lt;p&gt;“Entrepreneurs are egotistical motherfuckers”&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://amzn.to/2ICcA5q&quot;&gt;The Replaceable Founder&lt;/a&gt; by Ari Meisel&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;AI-Generated Voices - &lt;a href=&quot;Resemble.ai &quot;&gt;Resemble.ai&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://amzn.to/2U6KhBx&quot;&gt;Checklist Manifesto&lt;/a&gt; by Atul Gawande&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Less Doing podcast episodes with Ari Meisel and Doug Brackmann, &lt;a href=&quot;https://www.stitcher.com/podcast/the-art-of-less-doing/e/56224192&quot;&gt;Ep. 338&lt;/a&gt; and &lt;a href=&quot;https://www.stitcher.com/podcast/ari-meisel/the-art-of-less-doing/e/52393868&quot;&gt;Ep. 302&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Time tracking device - &lt;a href=&quot;https://timeular.com/ &quot;&gt;https://timeular.com/&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Guest Information&amp;nbsp;&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;Website: &lt;a href=&quot;https://lessdoing.com/ &quot;&gt;https://lessdoing.com/&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Facebook Page: &lt;a href=&quot;https://www.facebook.com/lessdoing/&quot;&gt;https://www.facebook.com/lessdoing/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Twitter: &lt;a href=&quot;https://twitter.com/arimeisel&quot;&gt;https://twitter.com/arimeisel&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/arimeisel/&quot;&gt;https://www.instagram.com/arimeisel/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;LinkedIn: &lt;a href=&quot;https://www.linkedin.com/in/productivity-coach-entrepreneur/&quot;&gt;https://www.linkedin.com/in/productivity-coach-entrepreneur/&lt;/a&gt;&lt;/p&gt;</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>2035</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -194,126 +109,56 @@ LinkedIn: https://www.linkedin.com/in/productivity-coach-entrepreneur/</itunes:s
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Ask Better Questions with Jim Frawley</title>
-			<description>
-Jim Frawley is the Founder of Bellwether, a community of people that get things done. He specializes in executive coaching, group coaching and organizational strategy. He has a unique ability to get people to accomplish what they didn't think they could, and his clients are a diverse range of industries and styles, from Fortune 100 firms to startup entrepreneurs. He holds his Executive Coaching Designation from Columbia Business School and is certified to administer numerous neuroscience, behavioural and personality assessments. His personal life is spread among three areas: he's a big-time reader, a small-time triathlete and a full-time husband and father. 
-
-
-Episode Summary 
-
-
-
-What's the laziest advice a coach can give? 
-
-Better questions will lead to better listening 
-
-Understanding what a "question" is will lead to better communication 
-
-The intentional practice of asking better questions 
-
-ORID question framework 
-
-
-Quotes 
-
-
-"When you ask a question with judgment, and not in a learning mindset or curiosity mindset, then you're effectively making statements"
-
-
-"Let's ask questions and learn something together" 
-
-
-"Be vulnerable enough to recognize that you don't know all of the answers. And that's okay. That's what questions are for." 
-
-
-Resources 
-
-
-Change Your Questions, Change Your Life by Marilee Adams 
-
-
-The Art of Focused Conversation by Brian Stanfield 
-
-
-Guest Information
-
-
-Website: http://www.bellwetherhub.com/ 
-
-
-Facebook Page: http://www.facebook.com/bellwetherhub
-
-
-Twitter: https://twitter.com/bellwetherhub
-
-
-Instagram: https://www.instagram.com/bellwetherhub/ 
-
-
-LinkedIn: https://www.linkedin.com/in/jimfrawley/
-</description>
+			<title><![CDATA[How To Ask Better Questions with Jim Frawley]]></title>
+			<description><![CDATA[<p>Jim Frawley is the Founder of Bellwether, a community of people that get things done. He specializes in executive coaching, group coaching and organizational strategy. He has a unique ability to get people to accomplish what they didn’t think they could, and his clients are a diverse range of industries and styles, from Fortune 100 firms to startup entrepreneurs. He holds his Executive Coaching Designation from Columbia Business School and is certified to administer numerous neuroscience, behavioural and personality assessments. His personal life is spread among three areas: he’s a big-time reader, a small-time triathlete and a full-time husband and father.&nbsp;</p>
+<p><strong>Episode Summary&nbsp;</strong></p>
+<ul>
+ <li>What’s the laziest advice a coach can give?&nbsp;</li>
+ <li>Better questions will lead to better listening&nbsp;</li>
+  <li>Understanding what a “question” is will lead to better communication&nbsp;</li>
+  <li>The intentional practice of asking better questions&nbsp;</li>
+  <li>ORID question framework&nbsp;</li>
+</ul>
+<p><strong>Quotes&nbsp;</strong></p>
+<p>“When you ask a question with judgment, and not in a learning mindset or curiosity mindset, then you're effectively making statements”</p>
+<p>“Let's ask questions and learn something together”&nbsp;</p>
+<p>“Be vulnerable enough to recognize that you don't know all of the answers. And that's okay. That's what questions are for.”&nbsp;</p>
+<p><strong>Resources&nbsp;</strong></p>
+<p><a href="https://amzn.to/2x9NFnn">Change Your Questions, Change Your Life by Marilee Adams</a>&nbsp;</p>
+<p><a href="https://amzn.to/2TjenCr">The Art of Focused Conversation by Brian Stanfield</a>&nbsp;</p>
+<p><strong>Guest Information</strong></p>
+<p>Website: <a href="http://www.bellwetherhub.com/">http://www.bellwetherhub.com/</a>&nbsp;</p>
+<p>Facebook Page: <a href="http://www.facebook.com/bellwetherhub">http://www.facebook.com/bellwetherhub</a></p>
+<p>Twitter: <a href="https://twitter.com/bellwetherhub">https://twitter.com/bellwetherhub</a></p>
+<p>Instagram: <a href="https://www.instagram.com/bellwetherhub/">https://www.instagram.com/bellwetherhub/</a>&nbsp;</p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/jimfrawley/">https://www.linkedin.com/in/jimfrawley/</a></p>]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Ask-Better-Questions-with-Jim-Frawley-eafc5g</link>
 			<guid isPermaLink="false">b7584d11-3c08-426c-8aec-705049e344ad</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 03 Mar 2020 14:00:00 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9989744/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-3%2F54020682-44100-2-148920d8632cf.mp3" length="24517007" type="audio/mpeg"/>
-			<itunes:summary>
-Jim Frawley is the Founder of Bellwether, a community of people that get things done. He specializes in executive coaching, group coaching and organizational strategy. He has a unique ability to get people to accomplish what they didn't think they could, and his clients are a diverse range of industries and styles, from Fortune 100 firms to startup entrepreneurs. He holds his Executive Coaching Designation from Columbia Business School and is certified to administer numerous neuroscience, behavioural and personality assessments. His personal life is spread among three areas: he's a big-time reader, a small-time triathlete and a full-time husband and father. 
-
-
-Episode Summary 
-
-
-
-What's the laziest advice a coach can give? 
-
-Better questions will lead to better listening 
-
-Understanding what a "question" is will lead to better communication 
-
-The intentional practice of asking better questions 
-
-ORID question framework 
-
-
-Quotes 
-
-
-"When you ask a question with judgment, and not in a learning mindset or curiosity mindset, then you're effectively making statements"
-
-
-"Let's ask questions and learn something together" 
-
-
-"Be vulnerable enough to recognize that you don't know all of the answers. And that's okay. That's what questions are for." 
-
-
-Resources 
-
-
-Change Your Questions, Change Your Life by Marilee Adams 
-
-
-The Art of Focused Conversation by Brian Stanfield 
-
-
-Guest Information
-
-
-Website: http://www.bellwetherhub.com/ 
-
-
-Facebook Page: http://www.facebook.com/bellwetherhub
-
-
-Twitter: https://twitter.com/bellwetherhub
-
-
-Instagram: https://www.instagram.com/bellwetherhub/ 
-
-
-LinkedIn: https://www.linkedin.com/in/jimfrawley/
-</itunes:summary>
+			<itunes:summary>&lt;p&gt;Jim Frawley is the Founder of Bellwether, a community of people that get things done. He specializes in executive coaching, group coaching and organizational strategy. He has a unique ability to get people to accomplish what they didn’t think they could, and his clients are a diverse range of industries and styles, from Fortune 100 firms to startup entrepreneurs. He holds his Executive Coaching Designation from Columbia Business School and is certified to administer numerous neuroscience, behavioural and personality assessments. His personal life is spread among three areas: he’s a big-time reader, a small-time triathlete and a full-time husband and father.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Episode Summary&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+ &lt;li&gt;What’s the laziest advice a coach can give?&amp;nbsp;&lt;/li&gt;
+ &lt;li&gt;Better questions will lead to better listening&amp;nbsp;&lt;/li&gt;
+  &lt;li&gt;Understanding what a “question” is will lead to better communication&amp;nbsp;&lt;/li&gt;
+  &lt;li&gt;The intentional practice of asking better questions&amp;nbsp;&lt;/li&gt;
+  &lt;li&gt;ORID question framework&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Quotes&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;“When you ask a question with judgment, and not in a learning mindset or curiosity mindset, then you&apos;re effectively making statements”&lt;/p&gt;
+&lt;p&gt;“Let&apos;s ask questions and learn something together”&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;“Be vulnerable enough to recognize that you don&apos;t know all of the answers. And that&apos;s okay. That&apos;s what questions are for.”&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resources&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://amzn.to/2x9NFnn&quot;&gt;Change Your Questions, Change Your Life by Marilee Adams&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://amzn.to/2TjenCr&quot;&gt;The Art of Focused Conversation by Brian Stanfield&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guest Information&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Website: &lt;a href=&quot;http://www.bellwetherhub.com/&quot;&gt;http://www.bellwetherhub.com/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Facebook Page: &lt;a href=&quot;http://www.facebook.com/bellwetherhub&quot;&gt;http://www.facebook.com/bellwetherhub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Twitter: &lt;a href=&quot;https://twitter.com/bellwetherhub&quot;&gt;https://twitter.com/bellwetherhub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/bellwetherhub/&quot;&gt;https://www.instagram.com/bellwetherhub/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;LinkedIn: &lt;a href=&quot;https://www.linkedin.com/in/jimfrawley/&quot;&gt;https://www.linkedin.com/in/jimfrawley/&lt;/a&gt;&lt;/p&gt;</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>1528</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -322,16 +167,14 @@ LinkedIn: https://www.linkedin.com/in/jimfrawley/
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>The Value of Time</title>
-			<description>
-			It's a solo episode with me, Chris Ippolito. My wife and son recently went on a two-week trip and it got me thinking about the value of time and why I'm working to build a business.
-			</description>
+			<title><![CDATA[The Value of Time]]></title>
+			<description><![CDATA[It's a solo episode with me, Chris Ippolito. My wife and son recently went on a two-week trip and it got me thinking about the value of time and why I'm working to build a business.]]></description>
 			<link>https://anchor.fm/getcoached/episodes/The-Value-of-Time-eb0ll3</link>
 			<guid isPermaLink="false">73f96e1a-6d29-4765-8b18-ed1e51723337</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Fri, 28 Feb 2020 04:57:01 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/10556515/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F937458fedd9ad092ee33f9c355c13716.m4a" length="6155505" type="audio/x-m4a"/>
-			<itunes:summary>It's a solo episode with me, Chris Ippolito. My wife and son recently went on a two-week trip and it got me thinking about the value of time and why I'm working to build a business.</itunes:summary>
+			<itunes:summary>It&apos;s a solo episode with me, Chris Ippolito. My wife and son recently went on a two-week trip and it got me thinking about the value of time and why I&apos;m working to build a business.</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>380</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -339,94 +182,58 @@ LinkedIn: https://www.linkedin.com/in/jimfrawley/
 			<itunes:episodeType>bonus</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Find Your First Profitable Business Idea</title>
-			<description>
-Featured in entrepreneurial magazines and collaborated on a book awarded an Amazon Best Seller "The Secret Diaries of a Female Entrepreneur," Nicole has dedicated her professional life to helping other ambitious women escape corporate confinement and create their PROFITABLE online dream business - with the five crucial business-building steps every rookie entrepreneur needs to apply to gain the clarity and confidence to see results FAST!
-
+			<title><![CDATA[How To Find Your First Profitable Business Idea]]></title>
+			<description><![CDATA[Featured in entrepreneurial magazines and collaborated on a book awarded an Amazon Best Seller "The Secret Diaries of a Female Entrepreneur," Nicole has dedicated her professional life to helping other ambitious women escape corporate confinement and create their PROFITABLE online dream business - with the five crucial business-building steps every rookie entrepreneur needs to apply to gain the clarity and confidence to see results FAST!
 Episode Summary
 
+ How to find your first profitable business idea
 
-How to find your first profitable business idea
+ Start with one on one services when starting
 
+ Model your business after someone who’s a few steps ahead of you
 
-Start with one on one services when starting
-
-
-Model your business after someone who's a few steps ahead of you
-
-
-Embrace the feeling of fear when starting a new business
-
+ Embrace the feeling of fear when starting a new business
 
 
 Quotes
-
-"I don't want people to get stuck in the learning and not earning stage, I want them to be able to earn while they learn"
-
-"Every day, do one or two things that will move you towards your goal"
-
+“I don’t want people to get stuck in the learning and not earning stage, I want them to be able to earn while they learn”
+“Every day, do one or two things that will move you towards your goal”
 Resources
-
 Business Idea Audit - https://nicoleprentice.kartra.com/page/zNW58
-
 The Secret Diaries of a Female Entrepreneur
-
 Guest Information
-
 Website: www.nicoleprentice.com
-
 Facebook Page: https://www.facebook.com/nicole.prentice.56
-
 Instagram: https://www.instagram.com/nicoleprentice_/
-
-LinkedIn: https://www.linkedin.com/in/nicoleprentice/
-</description>
+LinkedIn: https://www.linkedin.com/in/nicoleprentice/]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Find-Your-First-Profitable-Business-Idea-eafc3r</link>
 			<guid isPermaLink="false">3ccebdb1-4654-4891-9b72-9514c60487e4</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 25 Feb 2020 14:08:07 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9989691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F9078fc24df2497237de3f0234277952a.m4a" length="34516145" type="audio/x-m4a"/>
-			<itunes:summary>
-Featured in entrepreneurial magazines and collaborated on a book awarded an Amazon Best Seller "The Secret Diaries of a Female Entrepreneur," Nicole has dedicated her professional life to helping other ambitious women escape corporate confinement and create their PROFITABLE online dream business - with the five crucial business-building steps every rookie entrepreneur needs to apply to gain the clarity and confidence to see results FAST!
-
+			<itunes:summary>Featured in entrepreneurial magazines and collaborated on a book awarded an Amazon Best Seller &quot;The Secret Diaries of a Female Entrepreneur,&quot; Nicole has dedicated her professional life to helping other ambitious women escape corporate confinement and create their PROFITABLE online dream business - with the five crucial business-building steps every rookie entrepreneur needs to apply to gain the clarity and confidence to see results FAST!
 Episode Summary
 
+ How to find your first profitable business idea
 
-How to find your first profitable business idea
+ Start with one on one services when starting
 
+ Model your business after someone who’s a few steps ahead of you
 
-Start with one on one services when starting
-
-
-Model your business after someone who's a few steps ahead of you
-
-
-Embrace the feeling of fear when starting a new business
-
+ Embrace the feeling of fear when starting a new business
 
 
 Quotes
-
-"I don't want people to get stuck in the learning and not earning stage, I want them to be able to earn while they learn"
-
-"Every day, do one or two things that will move you towards your goal"
-
+“I don’t want people to get stuck in the learning and not earning stage, I want them to be able to earn while they learn”
+“Every day, do one or two things that will move you towards your goal”
 Resources
-
 Business Idea Audit - https://nicoleprentice.kartra.com/page/zNW58
-
 The Secret Diaries of a Female Entrepreneur
-
 Guest Information
-
 Website: www.nicoleprentice.com
-
 Facebook Page: https://www.facebook.com/nicole.prentice.56
-
 Instagram: https://www.instagram.com/nicoleprentice_/
-
-LinkedIn: https://www.linkedin.com/in/nicoleprentice/
-</itunes:summary>
+LinkedIn: https://www.linkedin.com/in/nicoleprentice/</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>2134</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -435,110 +242,68 @@ LinkedIn: https://www.linkedin.com/in/nicoleprentice/
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Build A Stronger Professional Network</title>
-			<description>
-David J.P. Fisher (D. Fish) is a speaker, coach, and author of 9 books, including the best-selling Hyper-Connected Selling and Networking in the 21st Century: Why Your Network Sucks and What to Do About It. Building on 20 years of experience as an entrepreneur and sales professional. David's goal is to help professionals understand the new business landscape, where social media, networking, and old-school sales and communication skills are the key to providing value and staying relevant. He lives in Evanston, IL – next to a huge cemetery that helps him appreciate the value of every day.
-
+			<title><![CDATA[How To Build A Stronger Professional Network]]></title>
+			<description><![CDATA[David J.P. Fisher (D. Fish) is a speaker, coach, and author of 9 books, including the best-selling Hyper-Connected Selling and Networking in the 21st Century: Why Your Network Sucks and What to Do About It. Building on 20 years of experience as an entrepreneur and sales professional. David’s goal is to help professionals understand the new business landscape, where social media, networking, and old-school sales and communication skills are the key to providing value and staying relevant. He lives in Evanston, IL – next to a huge cemetery that helps him appreciate the value of every day.
 Episode Summary
 
+ The power of networking
 
-The power of networking
+ The biggest mistake most people do when networking
 
+ Don’t use the excuse of being an “introvert” for having a bad network
 
-The biggest mistake most people do when networking
+ Networking is a lot like dating, so put the appropriate amount of effort in
 
+ Leverage technology to enhance your networking
 
-Don't use the excuse of being an "introvert" for having a bad network
-
-
-Networking is a lot like dating, so put the appropriate amount of effort in
-
-
-Leverage technology to enhance your networking
-
-
-Time is an asset when it comes to networking
-
+ Time is an asset when it comes to networking
 
 
 Quotes
-
-"Stop your networking from sucking"
-
-"Networking is a process, not just an event"
-
-"Plant those seeds now and you've got a lot of time to cultivate them
-
+“Stop your networking from sucking”
+“Networking is a process, not just an event”
+“Plant those seeds now and you’ve got a lot of time to cultivate them
 Resources
-
-All of David Fisher's books - https://davidjpfisher.com/bookstore/
-
+All of David Fisher’s books - https://davidjpfisher.com/bookstore/
 Shapr networking app - https://shapr.co/
-
-David Fisher's podcast https://beerbeatsandbusiness.com/
-
+David Fisher’s podcast https://beerbeatsandbusiness.com/
 Guest Information
-
 Website: https://davidjpfisher.com/
-
 Twitter: https://twitter.com/dfishrockstar
-
-LinkedIn: https://www.linkedin.com/in/iamdfish/
-</description>
+LinkedIn: https://www.linkedin.com/in/iamdfish/]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Build-A-Stronger-Professional-Network-eafc1r</link>
 			<guid isPermaLink="false">a96a8f76-96ea-4b3b-bfa3-79d2ccdf36a2</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Mon, 17 Feb 2020 15:00:00 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9989627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F7b86e47ee32a0215d6cd98448bb76b75.m4a" length="35448188" type="audio/x-m4a"/>
-			<itunes:summary>
-David J.P. Fisher (D. Fish) is a speaker, coach, and author of 9 books, including the best-selling Hyper-Connected Selling and Networking in the 21st Century: Why Your Network Sucks and What to Do About It. Building on 20 years of experience as an entrepreneur and sales professional. David's goal is to help professionals understand the new business landscape, where social media, networking, and old-school sales and communication skills are the key to providing value and staying relevant. He lives in Evanston, IL – next to a huge cemetery that helps him appreciate the value of every day.
-
+			<itunes:summary>David J.P. Fisher (D. Fish) is a speaker, coach, and author of 9 books, including the best-selling Hyper-Connected Selling and Networking in the 21st Century: Why Your Network Sucks and What to Do About It. Building on 20 years of experience as an entrepreneur and sales professional. David’s goal is to help professionals understand the new business landscape, where social media, networking, and old-school sales and communication skills are the key to providing value and staying relevant. He lives in Evanston, IL – next to a huge cemetery that helps him appreciate the value of every day.
 Episode Summary
 
+ The power of networking
 
-The power of networking
+ The biggest mistake most people do when networking
 
+ Don’t use the excuse of being an “introvert” for having a bad network
 
-The biggest mistake most people do when networking
+ Networking is a lot like dating, so put the appropriate amount of effort in
 
+ Leverage technology to enhance your networking
 
-Don't use the excuse of being an "introvert" for having a bad network
-
-
-Networking is a lot like dating, so put the appropriate amount of effort in
-
-
-Leverage technology to enhance your networking
-
-
-Time is an asset when it comes to networking
-
+ Time is an asset when it comes to networking
 
 
 Quotes
-
-"Stop your networking from sucking"
-
-"Networking is a process, not just an event"
-
-"Plant those seeds now and you've got a lot of time to cultivate them
-
+“Stop your networking from sucking”
+“Networking is a process, not just an event”
+“Plant those seeds now and you’ve got a lot of time to cultivate them
 Resources
-
-All of David Fisher's books - https://davidjpfisher.com/bookstore/
-
+All of David Fisher’s books - https://davidjpfisher.com/bookstore/
 Shapr networking app - https://shapr.co/
-
-David Fisher's podcast https://beerbeatsandbusiness.com/
-
+David Fisher’s podcast https://beerbeatsandbusiness.com/
 Guest Information
-
 Website: https://davidjpfisher.com/
-
 Twitter: https://twitter.com/dfishrockstar
-
-LinkedIn: https://www.linkedin.com/in/iamdfish/
-</itunes:summary>
+LinkedIn: https://www.linkedin.com/in/iamdfish/</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>2191</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -547,18 +312,14 @@ LinkedIn: https://www.linkedin.com/in/iamdfish/
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>Boring Work Is Trying To Teach You Something</title>
-			<description>
-I had spent 4 hours doing some boring, monotonous work and while I was struggling to keep myself on task, I had a thought that I wanted to share.			
-			</description>
+			<title><![CDATA[Boring Work Is Trying To Teach You Something]]></title>
+			<description><![CDATA[I had spent 4 hours doing some boring, monotonous work and while I was struggling to keep myself on task, I had a thought that I wanted to share.]]></description>
 			<link>https://anchor.fm/getcoached/episodes/Boring-Work-Is-Trying-To-Teach-You-Something-eaq846</link>
 			<guid isPermaLink="false">54075c6d-e42e-4a0a-ac21-6ff5b9f556db</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Thu, 13 Feb 2020 00:07:41 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/10346054/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F8900487dc5fb2e30caaa81f154327317.m4a" length="6807496" type="audio/x-m4a"/>
-			<itunes:summary>
-			I had spent 4 hours doing some boring, monotonous work and while I was struggling to keep myself on task, I had a thought that I wanted to share.
-			</itunes:summary>
+			<itunes:summary>I had spent 4 hours doing some boring, monotonous work and while I was struggling to keep myself on task, I had a thought that I wanted to share.</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>420</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -566,86 +327,54 @@ I had spent 4 hours doing some boring, monotonous work and while I was strugglin
 			<itunes:episodeType>bonus</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Discover What Makes You Unique</title>
-			<description>
-Dianne Shaver has been an entrepreneur over 28 years and has had retail, manufacturing and design businesses, a live radio show and now a podcast interviewing people all over the world. She has written books, given workshops, consulted with corporations and entrepreneurs. She has trained entrepreneurs to pitch to investors and run pitch events with accredited investors. Seeing business from many different vantage points gives her a unique and comprehensive overview to bring clients. In addition, Dianne has a master's in counselling which gives her insight into changing behaviours that don't work into ones that bring success to clients.
-
+			<title><![CDATA[How To Discover What Makes You Unique]]></title>
+			<description><![CDATA[Dianne Shaver has been an entrepreneur over 28 years and has had retail, manufacturing and design businesses, a live radio show and now a podcast interviewing people all over the world. She has written books, given workshops, consulted with corporations and entrepreneurs. She has trained entrepreneurs to pitch to investors and run pitch events with accredited investors. Seeing business from many different vantage points gives her a unique and comprehensive overview to bring clients. In addition, Dianne has a master’s in counselling which gives her insight into changing behaviours that don't work into ones that bring success to clients.
 Episode Summary
 
+ How we’re all blind to what makes us unique
 
-How we're all blind to what makes us unique
+ The signs that you’re tapping into your uniqueness
 
+ What makes you unique is continuously evolving
 
-The signs that you're tapping into your uniqueness
-
-
-What makes you unique is continuously evolving
-
-
-Write to uncover your uniqueness
-
+ Write to uncover your uniqueness
 
 
 Quotes
-
-"As human beings, we don't see ourselves correctly"
-
-"Address the fear, not the behaviour"
-
-"Everybody has the right to define the life that they want"
-
+“As human beings, we don’t see ourselves correctly”
+“Address the fear, not the behaviour”
+“Everybody has the right to define the life that they want”
 Guest Information
-
 Website: www.entrepreneurmindworld.com
-
 Facebook Page: https://www.facebook.com/DianneTransformationsPodcast
-
 Twitter: https://twitter.com/EntrepreneurMW
-
-LinkedIn: https://www.linkedin.com/in/dianne-shaver-b6b786101/
-</description>
+LinkedIn: https://www.linkedin.com/in/dianne-shaver-b6b786101/]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Discover-What-Makes-You-Unique-eafbri</link>
 			<guid isPermaLink="false">897adc82-821d-4ff6-91cb-c0ed4917b577</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Mon, 10 Feb 2020 15:18:34 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9989426/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F6fdb9ec7362a14dfe6819fa7a9447e15.m4a" length="33427881" type="audio/x-m4a"/>
-			<itunes:summary>
-Dianne Shaver has been an entrepreneur over 28 years and has had retail, manufacturing and design businesses, a live radio show and now a podcast interviewing people all over the world. She has written books, given workshops, consulted with corporations and entrepreneurs. She has trained entrepreneurs to pitch to investors and run pitch events with accredited investors. Seeing business from many different vantage points gives her a unique and comprehensive overview to bring clients. In addition, Dianne has a master's in counselling which gives her insight into changing behaviours that don't work into ones that bring success to clients.
-
+			<itunes:summary>Dianne Shaver has been an entrepreneur over 28 years and has had retail, manufacturing and design businesses, a live radio show and now a podcast interviewing people all over the world. She has written books, given workshops, consulted with corporations and entrepreneurs. She has trained entrepreneurs to pitch to investors and run pitch events with accredited investors. Seeing business from many different vantage points gives her a unique and comprehensive overview to bring clients. In addition, Dianne has a master’s in counselling which gives her insight into changing behaviours that don&apos;t work into ones that bring success to clients.
 Episode Summary
 
+ How we’re all blind to what makes us unique
 
-How we're all blind to what makes us unique
+ The signs that you’re tapping into your uniqueness
 
+ What makes you unique is continuously evolving
 
-The signs that you're tapping into your uniqueness
-
-
-What makes you unique is continuously evolving
-
-
-Write to uncover your uniqueness
-
+ Write to uncover your uniqueness
 
 
 Quotes
-
-"As human beings, we don't see ourselves correctly"
-
-"Address the fear, not the behaviour"
-
-"Everybody has the right to define the life that they want"
-
+“As human beings, we don’t see ourselves correctly”
+“Address the fear, not the behaviour”
+“Everybody has the right to define the life that they want”
 Guest Information
-
 Website: www.entrepreneurmindworld.com
-
 Facebook Page: https://www.facebook.com/DianneTransformationsPodcast
-
 Twitter: https://twitter.com/EntrepreneurMW
-
-LinkedIn: https://www.linkedin.com/in/dianne-shaver-b6b786101/
-</itunes:summary>
+LinkedIn: https://www.linkedin.com/in/dianne-shaver-b6b786101/</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>2066</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -654,148 +383,88 @@ LinkedIn: https://www.linkedin.com/in/dianne-shaver-b6b786101/
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Price Your Services</title>
-			<description>
-Loren Fogelman is a keynote speaker and one of America's top-ranked business coaches.
-
-In 2018 and 2019, she was recognized by HubSpot in its annual list of the world's top 22 business coaches.
-
+			<title><![CDATA[How To Price Your Services]]></title>
+			<description><![CDATA[Loren Fogelman is a keynote speaker and one of America’s top-ranked business coaches.
+In 2018 and 2019, she was recognized by HubSpot in its annual list of the world’s top 22 business coaches.
 As a keynote speaker, Loren has delivered talks and workshops across the United States
-
-at major conferences such as Inbound, one of the world's most esteemed content
-
+at major conferences such as Inbound, one of the world’s most esteemed content
 marketing events for entrepreneurs, as well as many niche conferences for accounting
-
 Professionals.
 
-
 Loren is an expert in pricing strategy and sales for accounting professionals. Her passion
-
 is empowering them to double revenues by working half the time through strategic
-
 pricing and effective sales techniques.
-
 
 Episode Summary
 
+ Coaching session on how to increase your pricing without losing clients
 
-Coaching session on how to increase your pricing without losing clients
+ Discover your ideal client
 
+ Uncover the value your potential client places on your service
 
-Discover your ideal client
+ Creating multiple packages to address the price objections
 
-
-Uncover the value your potential client places on your service
-
-
-Creating multiple packages to address the price objections
-
-
-The pitfall of pricing services by the hour
-
+  The pitfall of pricing services by the hour
 
 
 Quotes
-
-"You can't be more committed to helping your client change who they are than them wanting that change themselves."
-
-"Their gain is going to be greater than what your fees are going to be"
-
-"Pricing by the hour is unfair to you and your client"
-
+“You can’t be more committed to helping your client change who they are than them wanting that change themselves.”
+“Their gain is going to be greater than what your fees are going to be”
+“Pricing by the hour is unfair to you and your client”
 Resources
-
 The Ultimate Pricing Bootcamp - https://businesssuccesssolution.com/pricing/
-
-Get Paid What You're Worth eBook - https://businesssuccesssolution.com/worth/
-
+Get Paid What You’re Worth eBook - https://businesssuccesssolution.com/worth/
 Guest Information
-
 Website: https://businesssuccesssolution.com
-
 Facebook Page: https://facebook.com/BusinessSuccessSolution
-
 Twitter: https://twitter.com/lorenfogelman
-
 Pinterest: https://www.pinterest.ca/lorenfogelman/
-
 Instagram: https://www.instagram.com/loren.fogelman/
-
-LinkedIn: https://www.linkedin.com/in/lorenfogelman/
-</description>
+LinkedIn: https://www.linkedin.com/in/lorenfogelman/]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Price-Your-Services-eafbmg</link>
 			<guid isPermaLink="false">12a55be5-cbbe-4fe9-94f3-742189472329</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 04 Feb 2020 13:38:16 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9989264/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2Fd55c5b36885aa91a80d3a6fd06f42e32.m4a" length="49019299" type="audio/x-m4a"/>
-			<itunes:summary>
-Loren Fogelman is a keynote speaker and one of America's top-ranked business coaches.
-
-In 2018 and 2019, she was recognized by HubSpot in its annual list of the world's top 22 business coaches.
-
+			<itunes:summary>Loren Fogelman is a keynote speaker and one of America’s top-ranked business coaches.
+In 2018 and 2019, she was recognized by HubSpot in its annual list of the world’s top 22 business coaches.
 As a keynote speaker, Loren has delivered talks and workshops across the United States
-
-at major conferences such as Inbound, one of the world's most esteemed content
-
+at major conferences such as Inbound, one of the world’s most esteemed content
 marketing events for entrepreneurs, as well as many niche conferences for accounting
-
 Professionals.
 
-
 Loren is an expert in pricing strategy and sales for accounting professionals. Her passion
-
 is empowering them to double revenues by working half the time through strategic
-
 pricing and effective sales techniques.
-
 
 Episode Summary
 
+ Coaching session on how to increase your pricing without losing clients
 
-Coaching session on how to increase your pricing without losing clients
+ Discover your ideal client
 
+ Uncover the value your potential client places on your service
 
-Discover your ideal client
+ Creating multiple packages to address the price objections
 
-
-Uncover the value your potential client places on your service
-
-
-Creating multiple packages to address the price objections
-
-
-The pitfall of pricing services by the hour
-
+  The pitfall of pricing services by the hour
 
 
 Quotes
-
-"You can't be more committed to helping your client change who they are than them wanting that change themselves."
-
-"Their gain is going to be greater than what your fees are going to be"
-
-"Pricing by the hour is unfair to you and your client"
-
+“You can’t be more committed to helping your client change who they are than them wanting that change themselves.”
+“Their gain is going to be greater than what your fees are going to be”
+“Pricing by the hour is unfair to you and your client”
 Resources
-
 The Ultimate Pricing Bootcamp - https://businesssuccesssolution.com/pricing/
-
-Get Paid What You're Worth eBook - https://businesssuccesssolution.com/worth/
-
+Get Paid What You’re Worth eBook - https://businesssuccesssolution.com/worth/
 Guest Information
-
 Website: https://businesssuccesssolution.com
-
 Facebook Page: https://facebook.com/BusinessSuccessSolution
-
 Twitter: https://twitter.com/lorenfogelman
-
 Pinterest: https://www.pinterest.ca/lorenfogelman/
-
 Instagram: https://www.instagram.com/loren.fogelman/
-
-LinkedIn: https://www.linkedin.com/in/lorenfogelman/
-</itunes:summary>
+LinkedIn: https://www.linkedin.com/in/lorenfogelman/</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>3030</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -804,160 +473,76 @@ LinkedIn: https://www.linkedin.com/in/lorenfogelman/
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Unlock The Power Of Mastermind Groups</title>
-			<description>
-Aaron Walker has founded more than a dozen companies over the past 41 years. He attributes much of his success to having surrounded himself with his mastermind counterparts. Aaron spent a decade meeting weekly with Dave Ramsey, Dan Miller, Ken Abraham, and 5 other amazing entrepreneurs. Aaron is the founder of Iron Sharpens Iron Mastermind that now hosts 15 groups with National and International members. Aaron is the author of View From The Top, a must-read to fully understand how to live a life of success and significance. Also, the founder of The Mastermind Playbook an incredible resource for starting, running and scaling masterminds. Aaron lives in Nashville Tennessee with his wife Robin of 40 years and he has 2 incredible daughters and 5 beautiful grandchildren.
-
-
-In Iron Sharpens Iron Mastermind, we are fortunate to have members from eight different countries participating in 15 mastermind groups that meet weekly on a video platform. I have received so many personal requests from entrepreneurs to teach them how to build their own successful mastermind groups. Because of that, I created "The Mastermind Playbook" which is honestly a business in a box. The 30 videos and 100 plus tools, systems and processes included will walk you step by step on how to start, run and scale mastermind groups. This is not a concept, we are social proof that this system works incredibly well. I have been personally involved in a mastermind weekly for two decades now, and it has radically changed my life.
-
-
-Episode Summary
-
-
-
-What is a mastermind group?
-
-
-How to build and scale mastermind groups?
-
-
-Aaron's story about "retiring" at the age of 27
-
-
-How a horrific accident changed Aaron's life forever
-
-
-If you could only do one, should you hire a coach or join a mastermind?
-
-
-The most common mistakes made when forming a mastermind
-
-
-
-Quotes
-
-
-"Isolation is the enemy to excellence"
-
-
-"Can't couldn't do it. And could did it all"
-
-
-"Fear missing an opportunity more than you fear failure"
-
-
-Resources
-
-
-https://www.viewfromthetop.com/press-kit
-
-
-https://www.themastermindplaybook.com/aaron33044956
-
-
-The Go-Giver by Bob Burg
-
-
-Guest Information
-
-
-Website: https://www.viewfromthetop.com/
-
-
-Facebook Page: https://www.facebook.com/AaronWalkerVFTT
-
-
-Twitter: https://twitter.com/vftcoach
-
-
-Instagram: https://www.instagram.com/isi_mastermind/
-
-
-LinkedIn: https://www.linkedin.com/in/aaronwalkerviewfromthetop/
-
-
-YouTube: https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured
-</description>
+			<title><![CDATA[How To Unlock The Power Of Mastermind Groups]]></title>
+			<description><![CDATA[<p>Aaron Walker has founded more than a dozen companies over the past 41 years. He attributes much of his success to having surrounded himself with his mastermind counterparts. Aaron spent a decade meeting weekly with Dave Ramsey, Dan Miller, Ken Abraham, and 5 other amazing entrepreneurs. Aaron is the founder of Iron Sharpens Iron Mastermind that now hosts 15 groups with National and International members. Aaron is the author of View From The Top, a must-read to fully understand how to live a life of success and significance. Also, the founder of The Mastermind Playbook an incredible resource for starting, running and scaling masterminds. Aaron lives in Nashville Tennessee with his wife Robin of 40 years and he has 2 incredible daughters and 5 beautiful grandchildren.</p>
+<p>In Iron Sharpens Iron Mastermind, we are fortunate to have members from eight different countries participating in 15 mastermind groups that meet weekly on a video platform. I have received so many personal requests from entrepreneurs to teach them how to build their own successful mastermind groups. Because of that, I created “The Mastermind Playbook” which is honestly a business in a box. The 30 videos and 100 plus tools, systems and processes included will walk you step by step on how to start, run and scale mastermind groups. This is not a concept, we are social proof that this system works incredibly well. I have been personally involved in a mastermind weekly for two decades now, and it has radically changed my life.</p>
+<p><u><strong>Episode Summary</strong></u></p>
+<ul>
+ <li>What is a mastermind group?<br>
+</li>
+ <li>How to build and scale mastermind groups?<br>
+</li>
+ <li>Aaron’s story about “retiring” at the age of 27<br>
+</li>
+ <li>How a horrific accident changed Aaron’s life forever<br>
+</li>
+ <li>If you could only do one, should you hire a coach or join a mastermind?<br>
+</li>
+ <li>The most common mistakes made when forming a mastermind<br>
+</li>
+</ul>
+<p><u><strong>Quotes</strong></u></p>
+<p>“Isolation is the enemy to excellence”</p>
+<p>“Can’t couldn’t do it. And could did it all”</p>
+<p>“Fear missing an opportunity more than you fear failure”</p>
+<p><u><strong>Resources</strong></u></p>
+<p><a href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.viewfromthetop.com%2Fpress-kit&amp;data=02%7C01%7C%7C2df16d7d2fc74ccaa56c08d78eccab89%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637134882009539968&amp;sdata=XgYpbHQuhjDInK0GwENbYoiB2cHFEq4FBlDHC5IV8Rc%3D&amp;reserved=0"><u>https://www.viewfromthetop.com/press-kit</u></a></p>
+<p><a href="https://www.themastermindplaybook.com/aaron33044956"><u>https://www.themastermindplaybook.com/aaron33044956</u></a></p>
+<p><a href="https://www.amazon.ca/s?k=the+go+giver&amp;crid=2CR5BSPPOJQ0Q&amp;sprefix=the+go+%2Caps%2C208&amp;ref=nb_sb_ss_i_1_7"><u>The Go-Giver by Bob Burg</u></a></p>
+<p><u><strong>Guest Information</strong></u></p>
+<p>Website: <a href="https://www.viewfromthetop.com/"><u>https://www.viewfromthetop.com/</u></a></p>
+<p>Facebook Page: <a href="https://www.facebook.com/AaronWalkerVFTT"><u>https://www.facebook.com/AaronWalkerVFTT</u></a></p>
+<p>Twitter: <a href="https://twitter.com/vftcoach"><u>https://twitter.com/vftcoach</u></a></p>
+<p>Instagram: <a href="https://www.instagram.com/isi_mastermind/"><u>https://www.instagram.com/isi_mastermind/</u></a></p>
+<p>LinkedIn:<a href="https://www.linkedin.com/in/allendf"><u> </u></a><a href="https://www.linkedin.com/in/aaronwalkerviewfromthetop/"><u>https://www.linkedin.com/in/aaronwalkerviewfromthetop/</u></a></p>
+<p>YouTube: <a href="https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured"><u>https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured</u></a></p>]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Unlock-The-Power-Of-Mastermind-Groups-eabl10</link>
 			<guid isPermaLink="false">c0671f5a-c149-4958-86ab-49616a4c2004</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 28 Jan 2020 15:00:00 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9867744/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F0c211d3256418a04ed9ab9b1d337d181.m4a" length="28786089" type="audio/x-m4a"/>
-			<itunes:summary>
-Aaron Walker has founded more than a dozen companies over the past 41 years. He attributes much of his success to having surrounded himself with his mastermind counterparts. Aaron spent a decade meeting weekly with Dave Ramsey, Dan Miller, Ken Abraham, and 5 other amazing entrepreneurs. Aaron is the founder of Iron Sharpens Iron Mastermind that now hosts 15 groups with National and International members. Aaron is the author of View From The Top, a must-read to fully understand how to live a life of success and significance. Also, the founder of The Mastermind Playbook an incredible resource for starting, running and scaling masterminds. Aaron lives in Nashville Tennessee with his wife Robin of 40 years and he has 2 incredible daughters and 5 beautiful grandchildren.
-
-
-In Iron Sharpens Iron Mastermind, we are fortunate to have members from eight different countries participating in 15 mastermind groups that meet weekly on a video platform. I have received so many personal requests from entrepreneurs to teach them how to build their own successful mastermind groups. Because of that, I created "The Mastermind Playbook" which is honestly a business in a box. The 30 videos and 100 plus tools, systems and processes included will walk you step by step on how to start, run and scale mastermind groups. This is not a concept, we are social proof that this system works incredibly well. I have been personally involved in a mastermind weekly for two decades now, and it has radically changed my life.
-
-
-Episode Summary
-
-
-
-What is a mastermind group?
-
-
-How to build and scale mastermind groups?
-
-
-Aaron's story about "retiring" at the age of 27
-
-
-How a horrific accident changed Aaron's life forever
-
-
-If you could only do one, should you hire a coach or join a mastermind?
-
-
-The most common mistakes made when forming a mastermind
-
-
-
-Quotes
-
-
-"Isolation is the enemy to excellence"
-
-
-"Can't couldn't do it. And could did it all"
-
-
-"Fear missing an opportunity more than you fear failure"
-
-
-Resources
-
-
-https://www.viewfromthetop.com/press-kit
-
-
-https://www.themastermindplaybook.com/aaron33044956
-
-
-The Go-Giver by Bob Burg
-
-
-Guest Information
-
-
-Website: https://www.viewfromthetop.com/
-
-
-Facebook Page: https://www.facebook.com/AaronWalkerVFTT
-
-
-Twitter: https://twitter.com/vftcoach
-
-
-Instagram: https://www.instagram.com/isi_mastermind/
-
-
-LinkedIn: https://www.linkedin.com/in/aaronwalkerviewfromthetop/
-
-
-YouTube: https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured
-</itunes:summary>
+			<itunes:summary>&lt;p&gt;Aaron Walker has founded more than a dozen companies over the past 41 years. He attributes much of his success to having surrounded himself with his mastermind counterparts. Aaron spent a decade meeting weekly with Dave Ramsey, Dan Miller, Ken Abraham, and 5 other amazing entrepreneurs. Aaron is the founder of Iron Sharpens Iron Mastermind that now hosts 15 groups with National and International members. Aaron is the author of View From The Top, a must-read to fully understand how to live a life of success and significance. Also, the founder of The Mastermind Playbook an incredible resource for starting, running and scaling masterminds. Aaron lives in Nashville Tennessee with his wife Robin of 40 years and he has 2 incredible daughters and 5 beautiful grandchildren.&lt;/p&gt;
+&lt;p&gt;In Iron Sharpens Iron Mastermind, we are fortunate to have members from eight different countries participating in 15 mastermind groups that meet weekly on a video platform. I have received so many personal requests from entrepreneurs to teach them how to build their own successful mastermind groups. Because of that, I created “The Mastermind Playbook” which is honestly a business in a box. The 30 videos and 100 plus tools, systems and processes included will walk you step by step on how to start, run and scale mastermind groups. This is not a concept, we are social proof that this system works incredibly well. I have been personally involved in a mastermind weekly for two decades now, and it has radically changed my life.&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Episode Summary&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;ul&gt;
+ &lt;li&gt;What is a mastermind group?&lt;br&gt;
+&lt;/li&gt;
+ &lt;li&gt;How to build and scale mastermind groups?&lt;br&gt;
+&lt;/li&gt;
+ &lt;li&gt;Aaron’s story about “retiring” at the age of 27&lt;br&gt;
+&lt;/li&gt;
+ &lt;li&gt;How a horrific accident changed Aaron’s life forever&lt;br&gt;
+&lt;/li&gt;
+ &lt;li&gt;If you could only do one, should you hire a coach or join a mastermind?&lt;br&gt;
+&lt;/li&gt;
+ &lt;li&gt;The most common mistakes made when forming a mastermind&lt;br&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Quotes&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;“Isolation is the enemy to excellence”&lt;/p&gt;
+&lt;p&gt;“Can’t couldn’t do it. And could did it all”&lt;/p&gt;
+&lt;p&gt;“Fear missing an opportunity more than you fear failure”&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.viewfromthetop.com%2Fpress-kit&amp;amp;data=02%7C01%7C%7C2df16d7d2fc74ccaa56c08d78eccab89%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637134882009539968&amp;amp;sdata=XgYpbHQuhjDInK0GwENbYoiB2cHFEq4FBlDHC5IV8Rc%3D&amp;amp;reserved=0&quot;&gt;&lt;u&gt;https://www.viewfromthetop.com/press-kit&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.themastermindplaybook.com/aaron33044956&quot;&gt;&lt;u&gt;https://www.themastermindplaybook.com/aaron33044956&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.ca/s?k=the+go+giver&amp;amp;crid=2CR5BSPPOJQ0Q&amp;amp;sprefix=the+go+%2Caps%2C208&amp;amp;ref=nb_sb_ss_i_1_7&quot;&gt;&lt;u&gt;The Go-Giver by Bob Burg&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Guest Information&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;Website: &lt;a href=&quot;https://www.viewfromthetop.com/&quot;&gt;&lt;u&gt;https://www.viewfromthetop.com/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Facebook Page: &lt;a href=&quot;https://www.facebook.com/AaronWalkerVFTT&quot;&gt;&lt;u&gt;https://www.facebook.com/AaronWalkerVFTT&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Twitter: &lt;a href=&quot;https://twitter.com/vftcoach&quot;&gt;&lt;u&gt;https://twitter.com/vftcoach&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/isi_mastermind/&quot;&gt;&lt;u&gt;https://www.instagram.com/isi_mastermind/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LinkedIn:&lt;a href=&quot;https://www.linkedin.com/in/allendf&quot;&gt;&lt;u&gt; &lt;/u&gt;&lt;/a&gt;&lt;a href=&quot;https://www.linkedin.com/in/aaronwalkerviewfromthetop/&quot;&gt;&lt;u&gt;https://www.linkedin.com/in/aaronwalkerviewfromthetop/&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;YouTube: &lt;a href=&quot;https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured&quot;&gt;&lt;u&gt;https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>1779</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -966,82 +551,52 @@ YouTube: https://www.youtube.com/channel/UCDkwb8Lma3iylfjjBDzsB2A/featured
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>Understanding How You Think</title>
-			<description>
-Nick Davies is a business and career coach, with 20 years of background in financial services. Originally from London England, Nick has also lived and worked in the Philippines, Florida, NY and now calls Charlotte, NC home.
-
+			<title><![CDATA[Understanding How You Think]]></title>
+			<description><![CDATA[Nick Davies is a business and career coach, with 20 years of background in financial services. Originally from London England, Nick has also lived and worked in the Philippines, Florida, NY and now calls Charlotte, NC home.
 Over the last 4 years, Nick has shifted his focus on creating his purpose and now helps people and businesses through coaching. He is trained through Tony Robbins coaching and is also a certified health coach.
-
 Episode Summary
 
+ The three primary ways that we all think
 
-The three primary ways that we all think
+ MindScan; a tool to understand how you’re currently thinking
 
+ The importance of understanding your identity and defining what you want to be
 
-MindScan; a tool to understand how you're currently thinking
-
-
-The importance of understanding your identity and defining what you want to be
-
-
-Morning routines and how they help change your thinking
-
+ Morning routines and how they help change your thinking
 
 
 Resources
-
 MindScan Assessment: https://proadvisorcoach.com/getcoachedpodcast/
-
-Review of Chris's MindScan Assessment: https://youtu.be/-5Stflstg2U
-
+Review of Chris’s MindScan Assessment: https://youtu.be/-5Stflstg2U
 Guest Information
-
 Website: www.proadvisorcoach.com
-
 Facebook: https://www.facebook.com/nick.davies.980315
-
-LinkedIn: https://www.linkedin.com/in/coachnicholasdavies/
-</description>
+LinkedIn: https://www.linkedin.com/in/coachnicholasdavies/]]></description>
 			<link>https://anchor.fm/getcoached/episodes/Understanding-How-You-Think-ea5o9r</link>
 			<guid isPermaLink="false">a7d6bf6d-0dc2-4fc5-bd04-d8c4c8ebc121</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 21 Jan 2020 14:45:57 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9674491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2F640bbd1bfea75b35513e6f516a3fcb09.m4a" length="25256495" type="audio/x-m4a"/>
-			<itunes:summary>
-Nick Davies is a business and career coach, with 20 years of background in financial services. Originally from London England, Nick has also lived and worked in the Philippines, Florida, NY and now calls Charlotte, NC home.
-
+			<itunes:summary>Nick Davies is a business and career coach, with 20 years of background in financial services. Originally from London England, Nick has also lived and worked in the Philippines, Florida, NY and now calls Charlotte, NC home.
 Over the last 4 years, Nick has shifted his focus on creating his purpose and now helps people and businesses through coaching. He is trained through Tony Robbins coaching and is also a certified health coach.
-
 Episode Summary
 
+ The three primary ways that we all think
 
-The three primary ways that we all think
+ MindScan; a tool to understand how you’re currently thinking
 
+ The importance of understanding your identity and defining what you want to be
 
-MindScan; a tool to understand how you're currently thinking
-
-
-The importance of understanding your identity and defining what you want to be
-
-
-Morning routines and how they help change your thinking
-
+ Morning routines and how they help change your thinking
 
 
 Resources
-
 MindScan Assessment: https://proadvisorcoach.com/getcoachedpodcast/
-
-Review of Chris's MindScan Assessment: https://youtu.be/-5Stflstg2U
-
+Review of Chris’s MindScan Assessment: https://youtu.be/-5Stflstg2U
 Guest Information
-
 Website: www.proadvisorcoach.com
-
 Facebook: https://www.facebook.com/nick.davies.980315
-
-LinkedIn: https://www.linkedin.com/in/coachnicholasdavies/
-</itunes:summary>
+LinkedIn: https://www.linkedin.com/in/coachnicholasdavies/</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>1561</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -1050,82 +605,48 @@ LinkedIn: https://www.linkedin.com/in/coachnicholasdavies/
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>How To Live A Life Of Less Regret</title>
-			<description>
-Allen Funston was a professional engineer, management consultant, and business leader then turned full-time dad to 3 toddlers. In 2017, he went on to launch Sentient Future Consulting to unlock other people's time with a modern approach to leveraging technology. He has saved organizations over $500 Million and individuals over 681,109 hours (77.8 years) in their lives. He's developed a groundbreaking map of the human condition, "Sentient Process Network Theory," which helps regret-proof his clients' lives and combat the Attention Economy's threat to society's fulfilment and the entrepreneurial landscape.
-
+			<title><![CDATA[How To Live A Life Of Less Regret]]></title>
+			<description><![CDATA[Allen Funston was a professional engineer, management consultant, and business leader then turned full-time dad to 3 toddlers. In 2017, he went on to launch Sentient Future Consulting to unlock other people’s time with a modern approach to leveraging technology. He has saved organizations over $500 Million and individuals over 681,109 hours (77.8 years) in their lives. He’s developed a groundbreaking map of the human condition, "Sentient Process Network Theory," which helps regret-proof his clients' lives and combat the Attention Economy’s threat to society's fulfilment and the entrepreneurial landscape.
 Episode Summary
 
-
-Attention Economy
-
-Living a life of fewer regrets
-
-An exercise to evaluate what's truly important to you
-
-Why Money, Time and Freedom shouldn't be things you place value on
-
-Common false beliefs holding people back
-
-The one thing you can do to start living a more regret-free life
-
+ Attention Economy
+ Living a life of fewer regrets
+ An exercise to evaluate what’s truly important to you
+ Why Money, Time and Freedom shouldn’t be things you place value on
+  Common false beliefs holding people back
+  The one thing you can do to start living a more regret-free life
 
 Resources
-
 Time tracking app: https://atracker.pro/home.html
-
 Guest Information
-
 Website: https://sentientfuture.earth/
-
 Facebook Page: https://www.facebook.com/sentientfuture
-
 Twitter: https://twitter.com/sentientfuture
-
 Instagram: https://www.instagram.com/sentientfuture/
-
-LinkedIn: https://www.linkedin.com/in/allendf
-</description>
+LinkedIn: https://www.linkedin.com/in/allendf]]></description>
 			<link>https://anchor.fm/getcoached/episodes/How-To-Live-A-Life-Of-Less-Regret-e9vhm8</link>
 			<guid isPermaLink="false">4fe82282-86ee-4c3c-bde5-172a4fa3f0fe</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 21 Jan 2020 14:45:40 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9471112/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-03-02%2Fe0ac02dec0c2940aaa4b6dfcc377759b.m4a" length="46042473" type="audio/x-m4a"/>
-			<itunes:summary>
-Allen Funston was a professional engineer, management consultant, and business leader then turned full-time dad to 3 toddlers. In 2017, he went on to launch Sentient Future Consulting to unlock other people's time with a modern approach to leveraging technology. He has saved organizations over $500 Million and individuals over 681,109 hours (77.8 years) in their lives. He's developed a groundbreaking map of the human condition, "Sentient Process Network Theory," which helps regret-proof his clients' lives and combat the Attention Economy's threat to society's fulfilment and the entrepreneurial landscape.
-
+			<itunes:summary>Allen Funston was a professional engineer, management consultant, and business leader then turned full-time dad to 3 toddlers. In 2017, he went on to launch Sentient Future Consulting to unlock other people’s time with a modern approach to leveraging technology. He has saved organizations over $500 Million and individuals over 681,109 hours (77.8 years) in their lives. He’s developed a groundbreaking map of the human condition, &quot;Sentient Process Network Theory,&quot; which helps regret-proof his clients&apos; lives and combat the Attention Economy’s threat to society&apos;s fulfilment and the entrepreneurial landscape.
 Episode Summary
 
-
-Attention Economy
-
-Living a life of fewer regrets
-
-An exercise to evaluate what's truly important to you
-
-Why Money, Time and Freedom shouldn't be things you place value on
-
-Common false beliefs holding people back
-
-The one thing you can do to start living a more regret-free life
-
+ Attention Economy
+ Living a life of fewer regrets
+ An exercise to evaluate what’s truly important to you
+ Why Money, Time and Freedom shouldn’t be things you place value on
+  Common false beliefs holding people back
+  The one thing you can do to start living a more regret-free life
 
 Resources
-
 Time tracking app: https://atracker.pro/home.html
-
 Guest Information
-
 Website: https://sentientfuture.earth/
-
 Facebook Page: https://www.facebook.com/sentientfuture
-
 Twitter: https://twitter.com/sentientfuture
-
 Instagram: https://www.instagram.com/sentientfuture/
-
-LinkedIn: https://www.linkedin.com/in/allendf
-</itunes:summary>
+LinkedIn: https://www.linkedin.com/in/allendf</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>2846</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
@@ -1134,26 +655,18 @@ LinkedIn: https://www.linkedin.com/in/allendf
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 		<item>
-			<title>Welcome To The Get Coached Podcast</title>
-			<description>
-In this special episode, Chris Ippolito (host) introduces himself and shares the story behind why he started the Get Coached Podcast.
-
+			<title><![CDATA[Welcome To The Get Coached Podcast]]></title>
+			<description><![CDATA[In this special episode, Chris Ippolito (host) introduces himself and shares the story behind why he started the Get Coached Podcast.
 Facebook Page: https://www.facebook.com/getcoachedpodcast
-
-jjLEttZnx4YCJrH8bKxR
-</description>
+jjLEttZnx4YCJrH8bKxR]]></description>
 			<link>https://anchor.fm/getcoached/episodes/Welcome-To-The-Get-Coached-Podcast-ea21jd</link>
 			<guid isPermaLink="false">31d49087-3fe7-480e-abbc-601c202afe37</guid>
-			<dc:creator>Chris Ippolito</dc:creator>
+			<dc:creator><![CDATA[Chris Ippolito]]></dc:creator>
 			<pubDate>Tue, 14 Jan 2020 22:57:09 GMT</pubDate>
 			<enclosure url="https://anchor.fm/s/59e8eb4/podcast/play/9552941/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-0-21%2F44522046-44100-2-2bb9cc1cbab1b.m4a" length="29587903" type="audio/x-m4a"/>
-			<itunes:summary>
-In this special episode, Chris Ippolito (host) introduces himself and shares the story behind why he started the Get Coached Podcast.
-
+			<itunes:summary>In this special episode, Chris Ippolito (host) introduces himself and shares the story behind why he started the Get Coached Podcast.
 Facebook Page: https://www.facebook.com/getcoachedpodcast
-
-jjLEttZnx4YCJrH8bKxR
-</itunes:summary>
+jjLEttZnx4YCJrH8bKxR</itunes:summary>
 			<itunes:explicit>No</itunes:explicit>
 			<itunes:duration>919</itunes:duration>
 			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/842773/842773-1578946832084-ec7d244d89685.jpg"/>
