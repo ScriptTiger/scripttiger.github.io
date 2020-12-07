@@ -1,140 +1,175 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en-US"><head>
-<script src="https://scripttiger.github.io/js/jquery-3.5.1.min.js"></script>
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Geo Tor Table - ScriptTiger</title></head>
-<body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
-<div id="header-element"></div>
-<script>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <script src="https://scripttiger.github.io/js/jquery-3.5.1.min.js"></script>
+    <title>Geo Tor Table - ScriptTiger</title>
+  </head>
+  <body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000"
+    vlink="#551a8b" link="#0000ee">
+    <script>
 $(function(){
 $("#header-element").load("https://scripttiger.github.io/elements/header.html");
 });
 </script>
-<table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td style="vertical-align: top; height: 100%; width: 15%;">
-<table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td> <br>
-</td>
-<td style="vertical-align: top; height: 100px; width: 80%;">
-</td>
-<td style="vertical-align: top; height: 100px; width: 10%;"> <br>
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; width: 10%;"> <br>
-</td>
-<td style="vertical-align: top; width: 80%;">
-<div id="navbar-element"></div>
-<script>
+    <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;"
+      cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; height: 100%; width: 15%;">
+            <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;"
+              cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td> <br>
+                  </td>
+                  <td style="vertical-align: top; height: 100px; width: 80%;">
+                    <br>
+                  </td>
+                  <td style="vertical-align: top; height: 100px; width: 10%;"> <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top; width: 10%;"> <br>
+                  </td>
+                  <td style="vertical-align: top; width: 80%;">
+                    <script>
 $(function(){
 $("#navbar-element").load("https://scripttiger.github.io/elements/navbar.html");
 });
-</script>
-</td>
-<td style="vertical-align: top; width: 10%;"> <br>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td style="vertical-align: top; height: 100%; width: 70%;">
-<table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);" border="1" cellpadding="2" cellspacing="2">
-<tbody>
-<tr>
-<td style="vertical-align: top; width: 100%; background-color: white;"><br>
-<h1 style="text-align: center; margin-top: 10px;">
-Geo
-Tor Table</h1>
-The Geo Tor Table has been designed to be able to quickly search Tor
-nodes by a variety of geodata criteria and is updated routinely. The
-most common use case for using this table is to assist in building Tor
-node lists (i.e. ExitNodes, EntryNodes, ExcludeNodes, ExcludeExitNodes,
-etc.) based on specific geodata criteria, such as building a node list
-of only one ISP, only nodes within a specific U.S. state, only nodes
-inside or outside of the European Union, etc. This offers much greater
-granularity and flexibillity to build custom lists based on criteria
-other than simply country, which is currently the only geographic level
-natively supported by Tor by way of the ISO country codes (i.e. {US}
-for US, {CA} for Canada, etc.). Other
-use cases may include asisting in the research of the Tor network
-itself, among others.<br>
-<br>
-While
-Tor nodes are constantly changing, the Geo Tor Table represents only a
-snapshot of the Tor nodes present at the time the table is generated.
-As with other data on this website, updates to the Geo Tor Table are
-tweeted as soon as they are committed to git, so you can keep up with
-updates either by following <a href="https://twitter.com/scripttiger" target="_blank">@ScriptTiger</a>
-on Twitter or by watching the <a href="https://github.com/ScriptTiger/scripttiger.github.io" target="_blank">GitHub repo of this website</a>.<br>
-<br>
-If you are running a Windows operating system, one way to utilize this
-table and search Tor exit nodes based on geodata securely and
-anonymously offline and instantly build node lists is by downloading <a href="https://github.com/ScriptTiger/Tor-Search/archive/master.zip" download="">Tor-Search</a>
-and placing the table into the same directory as the Tor_search script.<br><br>As
-the table is in CSV format, it can also easily be imported into your
-favorite spreadsheet application (i.e. Microsoft Excel, LibreOffice,
-OpenOffice, etc.) and be sorted and filtered there by crtieria columns,
-as well.<br>
-<br>
-<a href="https://scripttiger.github.io/tor/data/Tor_Complete.zip" download=""><span style="text-decoration: underline; font-weight: bold;">Download
-the latest Geo Tor Table here!!!</span></a><br>
-<br>
-This product includes GeoLite2 data created by MaxMind, available from
-<a href="https://www.maxmind.com">https://www.maxmind.com</a>.<br>
-<br>
-Have questions or comments about the content on this page? ScriptTiger
-would love to hear them! Open a new issue in <a target="_blank" href="https://github.com/ScriptTiger/Tor-Search/issues">ScriptTiger's
-GitHub Tor-Search repository</a> to have your voice
-heard!
-</td>
-</tr>
-</tbody>
-</table>
-<div id="footer-element"></div>
-<script>
+</script></td>
+                  <td style="vertical-align: top; width: 10%;"> <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td style="vertical-align: top; height: 100%; width: 70%;">
+            <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);"
+              cellspacing="2" cellpadding="2" border="1">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top; width: 100%; background-color: white;"><br>
+                    <h1 style="text-align: center; margin-top: 10px;">
+                      Geo
+                      Tor Table</h1>
+                    The Geo Tor Table has been designed to be able to quickly
+                    search Tor
+                    nodes by a variety of geodata criteria and is updated
+                    routinely. The
+                    most common use case for using this table is to assist in
+                    building Tor
+                    node lists (i.e. ExitNodes, EntryNodes, ExcludeNodes,
+                    ExcludeExitNodes,
+                    etc.) based on specific geodata criteria, such as building a
+                    node list
+                    of only one ISP, only nodes within a specific U.S. state,
+                    only nodes
+                    inside or outside of the European Union, etc. This offers
+                    much greater
+                    granularity and flexibillity to build custom lists based on
+                    criteria
+                    other than simply country, which is currently the only
+                    geographic level
+                    natively supported by Tor by way of the ISO country codes
+                    (i.e. {US}
+                    for US, {CA} for Canada, etc.). Other
+                    use cases may include asisting in the research of the Tor
+                    network
+                    itself, among others.<br>
+                    <br>
+                    While
+                    Tor nodes are constantly changing, the Geo Tor Table
+                    represents only a
+                    snapshot of the Tor nodes present at the time the table is
+                    generated.
+                    As with other data on this website, updates to the Geo Tor
+                    Table are
+                    tweeted as soon as they are committed to git, so you can
+                    keep up with
+                    updates either by following <a href="https://twitter.com/scripttiger"
+                      target="_blank">@ScriptTiger</a>
+                    on Twitter or by watching the <a href="https://github.com/ScriptTiger/scripttiger.github.io"
+                      target="_blank">GitHub repo of this website</a>.<br>
+                    <br>
+                    If you are running a Windows operating system, one way to
+                    utilize this
+                    table and search Tor exit nodes based on geodata securely
+                    and
+                    anonymously offline and instantly build node lists is by
+                    downloading <a href="https://github.com/ScriptTiger/Tor-Search/archive/master.zip"
+                      download="">Tor-Search</a>
+                    and placing the table into the same directory as the
+                    Tor_search script.<br>
+                    <br>
+                    As
+                    the table is in CSV format, it can also easily be imported
+                    into your
+                    favorite spreadsheet application (i.e. Microsoft Excel,
+                    LibreOffice,
+                    OpenOffice, etc.) and be sorted and filtered there by
+                    crtieria columns,
+                    as well.<br>
+                    <br>
+                    <a href="https://scripttiger.github.io/tor/data/Tor_Complete.zip"
+                      download=""><span style="text-decoration: underline; font-weight: bold;">Download
+the
+                        latest Geo Tor Table here!!!</span></a><br>
+                    <br>
+                    This product includes GeoLite2 data created by MaxMind,
+                    available from
+                    <a href="https://www.maxmind.com">https://www.maxmind.com</a>.<br>
+                    <br>
+                    Have questions or comments about the content on this page?
+                    ScriptTiger
+                    would love to hear them! Open a new issue in <a target="_blank"
+                      href="https://github.com/ScriptTiger/Tor-Search/issues">ScriptTiger's
+GitHub
+                      Tor-Search repository</a> to have your voice
+                    heard!
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <script>
 $(function(){
 $("#footer-element").load("https://scripttiger.github.io/elements/footer.html");
 });
-</script>
-</td>
-<td style="vertical-align: top; height: 100%; width: 15%;">
-<table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td style="vertical-align: top; height: 100px; width: 10%;"> <br>
-</td>
-<td style="vertical-align: middle; height: 100px; width: 80%; text-align: center;">
-<div id="google_translate_element"></div>
-<script type="text/javascript">
+</script></td>
+          <td style="vertical-align: top; height: 100%; width: 15%;">
+            <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;"
+              cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td style="vertical-align: top; height: 100px; width: 10%;"> <br>
+                  </td>
+                  <td style="vertical-align: middle; height: 100px; width: 80%; text-align: center;">
+                    <script type="text/javascript">
 function googleTranslateElementInit() {
 new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></td>
-<td style="vertical-align: top; height: 100px; width: 10%;"> <br>
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; width: 10%;"> <br>
-</td>
-<td style="vertical-align: top; width: 80%;">
-<div id="sidebar-element"></div>
-<script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></td>
+                  <td style="vertical-align: top; height: 100px; width: 10%;"> <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top; width: 10%;"> <br>
+                  </td>
+                  <td style="vertical-align: top; width: 80%;">
+                    <script>
 $(function(){
 $("#sidebar-element").load("https://scripttiger.github.io/elements/sidebar.html");
 });
-</script>
-</td>
-<td style="vertical-align: top; width: 10%;"> <br>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</body></html>
+</script></td>
+                  <td style="vertical-align: top; width: 10%;"> <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
