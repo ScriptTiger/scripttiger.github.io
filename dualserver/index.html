@@ -1,417 +1,310 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en-US">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-    <script src="https://scripttiger.github.io/js/jquery-3.5.1.min.js"></script>
-    <title>DualServer Blacklists &amp; Extras - ScriptTiger</title>
-  </head>
-  <body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000"
-    vlink="#551a8b" link="#0000ee">
-    <script>
+<html lang="en-US"><head>
+<script src="https://scripttiger.github.io/js/jquery-3.5.1.min.js"></script>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>DualServer Blacklists &amp; Extras - ScriptTiger</title></head>
+<body style="background-color: rgb(255, 204, 102); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+<div id="header-element"></div>
+<script>
 $(function(){
 $("#header-element").load("https://scripttiger.github.io/elements/header.html");
 });
 </script>
-    <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;"
-      cellspacing="0" cellpadding="0" border="0">
-      <tbody>
-        <tr>
-          <td style="vertical-align: top; height: 100%; width: 15%;">
-            <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;"
-              cellspacing="0" cellpadding="0" border="0">
-              <tbody>
-                <tr>
-                  <td> <br>
-                  </td>
-                  <td style="vertical-align: top; height: 100px; width: 80%;">
-                    <br>
-                  </td>
-                  <td style="vertical-align: top; height: 100px; width: 10%;"> <br>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 10%;"> <br>
-                  </td>
-                  <td style="vertical-align: top; width: 80%;">
-                    <script>
+<table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="vertical-align: top; height: 100%; width: 15%;">
+<table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td> <br>
+</td>
+<td style="vertical-align: top; height: 100px; width: 80%;">
+</td>
+<td style="vertical-align: top; height: 100px; width: 10%;"> <br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; width: 10%;"> <br>
+</td>
+<td style="vertical-align: top; width: 80%;">
+<div id="navbar-element"></div>
+<script>
 $(function(){
 $("#navbar-element").load("https://scripttiger.github.io/elements/navbar.html");
 });
-</script></td>
-                  <td style="vertical-align: top; width: 10%;"> <br>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-          <td style="vertical-align: top; height: 100%; width: 70%;">
-            <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);"
-              cellspacing="2" cellpadding="2" border="1">
-              <tbody>
-                <tr>
-                  <td style="vertical-align: top; width: 100%; background-color: white;"><br>
-                    <h1 style="text-align: center; margin-top: 10px;">DualServer
-                      Blacklists &amp; Extras </h1>
-                    Below are blacklists and other helpful links and tools for <a
-                      target="_blank" href="https://sourceforge.net/projects/dhcp-dns-server/">DualServer</a>,
-                    the highly configurable and scalable Windows/Linux DNS/DHCP
-                    server. If the latest official Windows releases are not
-                    working for you, please try the <a target="_blank" href="https://github.com/ScriptTiger/dualserver/releases">unofficial
-                      ScriptTiger fork</a>
-                    of an earlier version. The unoffificial ScriptTiger fork
-                    releases
-                    provide portable archives without the need to install as
-                    well as come
-                    in both Win32 and Win64 varieties. A shout-out to the
-                    Brians, Prodoehl
-                    and Lutz, over in the Connectify crew for developing that
-                    fork over the
-                    years!<br>
-                    <br>
-                    The blacklists are reformatted versions of <a target="_blank"
-                      href="https://github.com/StevenBlack/hosts">Steven Black's
-                      unified hosts
-                      files</a> and are synced regularly.<br>
-                    <br>
-                    Combining Steven Black's Unified Hosts with DualServer
-                    allows anyone
-                    from small home networks hosting DualServer on a regular old
-                    PC to a
-                    larger corporate infrastructure with multiple server blades
-                    and relay
-                    agents to block everything from sidebar ads, annoying
-                    YouTube video
-                    ads, banner ads, coin miners, and even some invisible
-                    embedded
-                    analytics trying to
-                    gather more information about you for all connected devices
-                    using your
-                    DualServer DNS service, including laptops, mobile phones,
-                    PCs, Macs,
-                    Linux, whatever. The other files add onto the core Unified
-                    Hosts
-                    additional blocks.<br>
-                    <br>
-                    If you'd like a way to more quickly and easily update your
-                    DualServer's
-                    blacklist to the most recent versions of Steven Black's
-                    unified hosts
-                    files, try the <a href="https://github.com/ScriptTiger/DualServer-AutoUpdate/archive/master.zip">ScriptTiger
-unified
-                      hosts updater</a>.<br>
-                    <br>
-                    While the blacklists will work for anyone running
-                    DualServer, the
-                    Updater is only for Windows users. If you download the above
-                    ZIP file
-                    and extract the contents to your DualServer root, the same
-                    directory as
-                    your DualServer.ini, it can update your DualServer for you
-                    depending on
-                    your preferences without requiring you to manually download
-                    and
-                    configure anything. Just insert #### BEGIN UNIFIED HOSTS
-                    #### and ####
-                    END UNIFIED HOSTS #### into the [DNS_HOSTS] section of the
-                    DualerServer.ini and run Blacklist_Update.cmd. After you
-                    have inserted
-                    the beginning and ending tags, if you run the script again
-                    it will
-                    automatically replace everything between them with the new
-                    blacklist.
-                    If
-                    you plan to always use the same blacklist, you can edit the
-                    "URL"
-                    variable at the top of the script with the direct URL of the
-                    blacklist
-                    you prefer and this will bypass having to be prompted for
-                    your
-                    preferences later.<br>
-                    <br>
-                    Note: A blacklist should be used together with other
-                    security measures
-                    to be more effective. For instance, a network user could
-                    simply change
-                    their device's currently configured DNS to get around
-                    blacklisting.
-                    It's also common for Android devices to automatically use
-                    Google DNS as
-                    a fallback if they cannot resovle quieries from the DNS
-                    servers
-                    currently configured on the device either manually or via
-                    DHCP. One
-                    simple way to make your network slightly more secure would
-                    be since
-                    your local DNS is on your LAN side, you could therefore
-                    configure your
-                    network equipment to block requests made by any LAN device
-                    other than
-                    your server to any server on port 53 on the WAN side to
-                    ensure DNS
-                    requests can only be made to your local server.<br>
-                    <br>
-                    To use these blacklists with DualServer you can either copy
-                    and paste
-                    their contents under the [DNS_HOSTS] section of the
-                    DualServer.ini or
-                    simply direct DualServer to the downloaded blacklist file
-                    using
-                    @blacklist.txt (or whatever the blacklist file name is)
-                    directly under
-                    the [DNS_HOSTS] section of the DualServer.ini. Please note,
-                    however, if
-                    you decide to direct DualServer to a file, the "@" line
-                    should be the
-                    first line in the [DNS_HOSTS] section of the DualServer.ini
-                    and all
-                    entries for the section must then come from the directed
-                    file.<br>
-                    <br>
-                    <table style="text-align: left; width: 75%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);"
-                      cellspacing="2" cellpadding="2" border="1">
-                      <tbody>
-                        <tr>
-                          <th style="vertical-align: top; font-weight: bold; width: 50%; background-color: white;">Hosts
-File
-                            Type </th>
-                          <th style="vertical-align: top; font-weight: bold; width: 50%; background-color: white;">
-                            <div style="text-align: center;">Download
-                            </div>
-                          </th>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+</script>
+</td>
+<td style="vertical-align: top; width: 10%;"> <br>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="vertical-align: top; height: 100%; width: 70%;">
+<table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 100%; background-color: white;"><br>
+<h1 style="text-align: center; margin-top: 10px;">DualServer
+Blacklists &amp; Extras </h1>
+Below are blacklists and other helpful links and tools for <a target="_blank" href="https://sourceforge.net/projects/dhcp-dns-server/">DualServer</a>,
+the highly configurable and scalable Windows/Linux DNS/DHCP
+server. If the latest official Windows releases are not working for you, please try the <a target="_blank" href="https://github.com/ScriptTiger/dualserver/releases">unofficial ScriptTiger fork</a>
+of an earlier version. The unoffificial ScriptTiger fork releases
+provide portable archives without the need to install as well as come
+in both Win32 and Win64 varieties. A shout-out to the Brians, Prodoehl
+and Lutz, over in the Connectify crew for developing that fork over the
+years!<br>
+<br>
+The blacklists are reformatted versions of <a target="_blank" href="https://github.com/StevenBlack/hosts">Steven Black's
+unified hosts
+files</a> and are synced regularly.<br>
+<br>
+Combining Steven Black's Unified Hosts with DualServer allows anyone
+from small home networks hosting DualServer on a regular old PC to a
+larger corporate infrastructure with multiple server blades and relay
+agents to block everything from sidebar ads, annoying YouTube video
+ads, banner ads, coin miners, and even some invisible embedded
+analytics trying to
+gather more information about you for all connected devices using your
+DualServer DNS service, including laptops, mobile phones, PCs, Macs,
+Linux, whatever. The other files add onto the core Unified Hosts
+additional blocks.<br>
+<br>
+If you'd like a way to more quickly and easily update your DualServer's
+blacklist to the most recent versions of Steven Black's unified hosts
+files, try the <a href="https://github.com/ScriptTiger/DualServer-AutoUpdate/archive/master.zip">ScriptTiger
+unified hosts updater</a>.<br>
+<br>
+While the blacklists will work for anyone running DualServer, the
+Updater is only for Windows users. If you download the above ZIP file
+and extract the contents to your DualServer root, the same directory as
+your DualServer.ini, it can update your DualServer for you depending on
+your preferences without requiring you to manually download and
+configure anything. Just insert #### BEGIN UNIFIED HOSTS #### and ####
+END UNIFIED HOSTS #### into the [DNS_HOSTS] section of the
+DualerServer.ini and run Blacklist_Update.cmd. After you have inserted
+the beginning and ending tags, if you run the script again it will
+automatically replace everything between them with the new blacklist.
+If
+you plan to always use the same blacklist, you can edit the "URL"
+variable at the top of the script with the direct URL of the blacklist
+you prefer and this will bypass having to be prompted for your
+preferences later.<br>
+<br>
+Note: A blacklist should be used together with other security measures
+to be more effective. For instance, a network user could simply change
+their device's currently configured DNS to get around blacklisting.
+It's also common for Android devices to automatically use Google DNS as
+a fallback if they cannot resovle quieries from the DNS servers
+currently configured on the device either manually or via DHCP. One
+simple way to make your network slightly more secure would be since
+your local DNS is on your LAN side, you could therefore configure your
+network equipment to block requests made by any LAN device other than
+your server to any server on port 53 on the WAN side to ensure DNS
+requests can only be made to your local server.<br>
+<br>
+To use these blacklists with DualServer you can either copy and paste
+their contents under the [DNS_HOSTS] section of the DualServer.ini or
+simply direct DualServer to the downloaded blacklist file using
+@blacklist.txt (or whatever the blacklist file name is) directly under
+the [DNS_HOSTS] section of the DualServer.ini. Please note, however, if
+you decide to direct DualServer to a file, the "@" line should be the
+first line in the [DNS_HOSTS] section of the DualServer.ini and all
+entries for the section must then come from the directed file.<br>
+<br>
+<table style="text-align: left; width: 75%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<th style="vertical-align: top; font-weight: bold; width: 50%; background-color: white;">Hosts
+File Type </th>
+<th style="vertical-align: top; font-weight: bold; width: 50%; background-color: white;">
+<div style="text-align: center;">Download
+</div>
+</th>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts
-=&nbsp;(adware
-                            + malware) </td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist.txt"
-                              download="">Raw</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+=&nbsp;(adware + malware) </td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist.txt" download="">Raw</a>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
+hosts&nbsp;+ fakenews </td>
+<td style="vertical-align: top; text-align: center; background-color: white;">
+<a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-f.txt" download="">Raw</a>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
+hosts&nbsp;+ gambling </td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-g.txt" download="">Raw</a>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
+hosts&nbsp;+ porn </td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-p.txt" download="">Raw</a>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
+hosts&nbsp;+ social </td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-s.txt" download="">Raw</a>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-                            fakenews </td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;">
-                            <a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-f.txt"
-                              download="">Raw</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+fakenews +
+gambling</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fg.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-                            gambling </td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-g.txt"
-                              download="">Raw</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+fakenews +
+porn</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fp.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-                            porn </td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-p.txt"
-                              download="">Raw</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+fakenews +
+social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fs.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-                            social </td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-s.txt"
-                              download="">Raw</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+gambling +
+porn</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-gp.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-fakenews
-                            +
-                            gambling</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fg.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+gambling +
+social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-gs.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-fakenews
-                            +
-                            porn</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fp.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+porn
++
+social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-ps.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-fakenews
-                            +
-                            social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fs.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+fakenews +
+gambling + porn</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fgp.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-gambling
-                            +
-                            porn</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-gp.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+fakenews +
+gambling + social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fgs.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-gambling
-                            +
-                            social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-gs.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
-                            hosts&nbsp;+
-                            porn
-                            +
-                            social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-ps.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+fakenews +
+porn + social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fps.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-fakenews
-                            +
-                            gambling + porn</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fgp.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
+gambling +
+porn + social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-gps.txt" download="">Raw</a></td>
+</tr>
+<tr>
+<td style="vertical-align: top; background-color: white;">Unified
 hosts&nbsp;+
-fakenews
-                            +
-                            gambling + social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fgs.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
-hosts&nbsp;+
-fakenews
-                            +
-                            porn + social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fps.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
-hosts&nbsp;+
-gambling
-                            +
-                            porn + social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-gps.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                        <tr>
-                          <td style="vertical-align: top; background-color: white;">Unified
-hosts&nbsp;+
-fakenews
-                            +
-                            gambling + porn + social</td>
-                          <td style="vertical-align: top; text-align: center; background-color: white;"><a
-                              target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fgps.txt"
-                              download="">Raw</a></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <br>
-                    Other helpful Links:<br>
-                    <br>
-                    <a target="_blank" href="http://127.0.0.1:6789/">Default
-                      URL
-                      for your local
-                      DualServer</a><br>
-                    <br>
-                    <a target="_blank" href="https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml">Official
-reference
-                      of DHCP options</a><br>
-                    <br>
-                    <a target="_blank" href="https://scripttiger.github.io/dualserver/DualServerManual.pdf">Official
-DualServer
-                      manual PDF</a><br>
-                    <br>
-                    <a target="_blank" href="https://scripttiger.github.io/dualserver/Template.ini"
-                      download="">Official
-                      DualServer configuration INI template</a><br>
-                    <br>
-                    <a target="_blank" href="https://scripttiger.github.io/dualserver/BasicDNS.ini"
-                      download="">Basic DNS-Only DualServer Configuration</a><br>
-                    <br>
-                    <a target="_blank" href="https://scripttiger.github.io/dualserver/Bare.ini"
-                      download="">Bare
-                      DualServer configuration INI with only section headers</a><br>
-                    <br>
-                    Have questions or comments about the content on this page?
-                    ScriptTiger
-                    would love to hear them! Open a new issue in <a target="_blank"
-                      href="https://github.com/ScriptTiger/DualServer-AutoUpdate/issues">ScriptTiger's
-GitHub
-                      DualServer repository</a> to have your voice heard! </td>
-                </tr>
-              </tbody>
-            </table>
-            <script>
+fakenews +
+gambling + porn + social</td>
+<td style="vertical-align: top; text-align: center; background-color: white;"><a target="_blank" href="https://scripttiger.github.io/dualserver/blacklist-fgps.txt" download="">Raw</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+Other helpful Links:<br>
+<br>
+<a target="_blank" href="http://127.0.0.1:6789/">Default
+URL
+for your local
+DualServer</a><br>
+<br>
+<a target="_blank" href="https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml">Official
+reference of DHCP options</a><br>
+<br>
+<a target="_blank" href="https://scripttiger.github.io/dualserver/DualServerManual.pdf">Official
+DualServer manual PDF</a><br>
+<br>
+<a target="_blank" href="https://scripttiger.github.io/dualserver/Template.ini" download="">Official
+DualServer configuration INI template</a><br>
+<br>
+<a target="_blank" href="https://scripttiger.github.io/dualserver/BasicDNS.ini" download="">Basic DNS-Only DualServer Configuration</a><br>
+<br>
+<a target="_blank" href="https://scripttiger.github.io/dualserver/Bare.ini" download="">Bare
+DualServer configuration INI with only section headers</a><br>
+<br>
+Have questions or comments about the content on this page? ScriptTiger
+would love to hear them! Open a new issue in <a target="_blank" href="https://github.com/ScriptTiger/DualServer-AutoUpdate/issues">ScriptTiger's
+GitHub DualServer repository</a> to have your voice heard! </td>
+</tr>
+</tbody>
+</table>
+<div id="footer-element"></div>
+<script>
 $(function(){
 $("#footer-element").load("https://scripttiger.github.io/elements/footer.html");
 });
-</script></td>
-          <td style="vertical-align: top; height: 100%; width: 15%;">
-            <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;"
-              cellspacing="0" cellpadding="0" border="0">
-              <tbody>
-                <tr>
-                  <td style="vertical-align: top; height: 100px; width: 10%;"> <br>
-                  </td>
-                  <td style="vertical-align: middle; height: 100px; width: 80%; text-align: center;">
-                    <script type="text/javascript">
+</script>
+</td>
+<td style="vertical-align: top; height: 100%; width: 15%;">
+<table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="vertical-align: top; height: 100px; width: 10%;"> <br>
+</td>
+<td style="vertical-align: middle; height: 100px; width: 80%; text-align: center;">
+<div id="google_translate_element"></div>
+<script type="text/javascript">
 function googleTranslateElementInit() {
 new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script>
-                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></td>
-                  <td style="vertical-align: top; height: 100px; width: 10%;"> <br>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; width: 10%;"> <br>
-                  </td>
-                  <td style="vertical-align: top; width: 80%;">
-                    <script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></td>
+<td style="vertical-align: top; height: 100px; width: 10%;"> <br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; width: 10%;"> <br>
+</td>
+<td style="vertical-align: top; width: 80%;">
+<div id="sidebar-element"></div>
+<script>
 $(function(){
 $("#sidebar-element").load("https://scripttiger.github.io/elements/sidebar.html");
 });
-</script></td>
-                  <td style="vertical-align: top; width: 10%;"> <br>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
-</html>
+</script>
+</td>
+<td style="vertical-align: top; width: 10%;"> <br>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body></html>
