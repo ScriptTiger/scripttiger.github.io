@@ -79,10 +79,10 @@ ScriptTiger
                       about this project</a><br>
                     <br>
                     <strong><span style="font-weight: bold;">TorMon</span></strong>:<br>
-                    Simple Tor controller written on Go for those that just want
-                    a single simple stand-alone compiled executable rather than
-                    needing to go through Python with STEM or other similar
-                    overly complex managed scripted projects utilizing countless
+                    Simple Tor controller for those that just want a single
+                    simple stand-alone compiled executable rather than needing
+                    to go through Python with STEM or other similar overly
+                    complex managed scripted projects utilizing countless
                     dependency packages just to open a simple socket connection.<br>
                     <a href="https://github.com/ScriptTiger/TorMon/archive/master.zip">Download
                       now!</a><br>
