@@ -242,16 +242,23 @@ ScriptTiger
                       about this project</a><br>
                     <br>
                     <strong><span style="font-weight: bold;">FLACSFX</span></strong>:<br>
-                    FLACSFX is a minimal FLAC-to-WAV transcoder to transcode an
-                    embedded FLAC file to a WAV file. The FLAC file can either
-                    be embedded at build time using the embed.go or embedded
-                    later by appending a FLAC file to a stand-alone FLACSFX
-                    executable built with the sa.go. This allows you to quickly
+                    FLACSFX is a minimal FLAC-to-WAV transcoder and multitrack
+                    FLAC mixer. The transcoder component transcodes embedded
+                    FLAC files to WAV files. The FLAC files are embedded by
+                    appending them to a precompiled FLACSFX executable. The
+                    multitrack FLAC mixer can mix the embedded FLAC tracks and
+                    output the mix either to a file or piped to standard output,
+                    to be played by VLC or other compatible applications without
+                    needing to write it to a file. This allows you to quickly
                     and easily send losslessly compressed FLAC audio to someone
-                    who needs it as a WAV in order to reduce the file size in
+                    who needs it as WAVs in order to reduce the file size in
                     transit and increase transfer speeds, while also not
                     requiring any technical know-how or additional software on
-                    the part of the recipient.<br>
+                    the part of the recipient. And the mixer can be used either
+                    to extract the multitrack mix without having to store an
+                    additional mixed master track, or it can simply be used for
+                    quickly sampling the mixed audio when piped to something
+                    like VLC.<br>
                     <a href="https://github.com/ScriptTiger/FLACSFX/releases/latest"
                       target="_blank">Download now! (Windows, Linux, and Mac)</a><br>
                     <a target="_blank" href="https://github.com/ScriptTiger/FLACSFX">Check
