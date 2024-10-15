@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /sitemap.txt
+Disallow: *.txt
+Disallow: *.csv
+Disallow: *.ini
+Disallow: /elements/*
+Disallow: /images/*
+Disallow: /js/*
+Sitemap: /sitemap.txt
