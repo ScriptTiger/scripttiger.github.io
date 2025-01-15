@@ -5,5 +5,3 @@ GitHub Pages hosted live at the below link:
 https://scripttiger.github.io/
 
 **Due to the volume of data and frequency of changes within this repository, the git history of downloadables is often cleared to keep the repository size manageable and the folks at GitHub happy. Because of this, downloadables, including some static assets not often changed, will often show as having been added in the latest commit, since there is no previous history of them as it is constantly being scrubbed.**
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MZ4FH4G5XHGZ4)
