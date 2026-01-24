@@ -52,6 +52,15 @@ $("#navbar-element").load("https://scripttiger.github.io/elements/navbar.html");
                 <tr>
                   <td style="vertical-align: top; width: 100%; background-color: white;"><br>
                     <h1 style="text-align: center; margin-top: 10px;">TigerChat</h1>
+                    TigerChat is a simple peer-to-peer/full-mesh chat app
+                    written in Go and transpiled to JavaScript via GopherJS.
+                    Every connection is inherently encrypted by WebRTC, and
+                    every peer must successfully perform a three-way
+                    cryptographic challenge-response handshake using Argon2 with
+                    each of the other peers in order to be authenticated with
+                    each other. However, while this provides reasonable security
+                    for fun chats amongst friends, it's not intended for the
+                    transmission of highly sensitive data.
                     <table style="text-align: left; width: 75%; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 102);"
                       cellspacing="2" cellpadding="2" border="1">
                       <tbody>
